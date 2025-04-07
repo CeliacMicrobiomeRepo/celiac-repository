@@ -201,11 +201,11 @@ Lists all datasets included in this version, along with key information like pub
   - `ASV_Table_Length_Filter`: Specific length filter applied to the ASV table post-DADA2, if any.
   - `Notes_From_Processing`: Any relevant notes made during data processing.
   - `Age_Range`: Age range of participants in the study, if reported.
-  - `Num_Samples_Processed_And_With_Metadata`: Total number of samples from this dataset included in the final CMR.
-  - `Num_Individuals_Processed_And_With_Metadata`: Total number of unique individuals represented by the included samples.
-  - `Num_Celiac_Samples_Processed_And_With_Metadata`: Number of samples from diagnosed celiac individuals.
-  - `Num_GFD_Samples_Processed_And_With_Metadata`: Number of samples from individuals on a gluten-free diet.
-  - `Num_Prospective_Celiac_Samples_Processed_And_With_Metadata`: Number of samples from individuals who later developed celiac disease (in prospective studies).
+  - `Num_Samples`: Total number of samples from this dataset included in the final CMR (processed and with metadata).
+  - `Num_Individuals`: Total number of unique individuals represented by the included samples (processed and with metadata).
+  - `Num_Celiac_Samples`: Number of samples from diagnosed celiac individuals (processed and with metadata).
+  - `Num_GFD_Samples`: Number of samples from individuals on a gluten-free diet (processed and with metadata).
+  - `Num_Prospective_Celiac_Samples`: Number of samples from individuals who later developed celiac disease (in prospective studies) (processed and with metadata).
   - `Longitudinal_Study`: Indicates if the study involved sampling the same individuals at multiple time points (TRUE/FALSE).
   - `Country`: Country where the study was conducted/samples collected.
   - `Samples_With_Significant_Factors`: Lists potential confounding factors present in some samples (e.g., 'gluten challenge', 'NCWS').
