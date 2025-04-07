@@ -1,0 +1,29 @@
+Warning: skipping mate #2 of read 'SRR15595244.384174 384174 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595244.384174 384174 length=151' because it was < 2 characters long
+Warning: skipping mate #1 of read 'SRR15595244.2533666 2533666 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR15595244.2533666 2533666 length=151' because it was < 2 characters long
+Warning: skipping mate #1 of read 'SRR15595244.4579436 4579436 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595244.4579436 4579436 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR15595244.4579436 4579436 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595244.4579436 4579436 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595244.5153121 5153121 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595244.5153121 5153121 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595244.6551238 6551238 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595244.6551238 6551238 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595244.7908835 7908835 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595244.7908835 7908835 length=151' because it was < 2 characters long
+8058909 reads; of these:
+  8058909 (100.00%) were paired; of these:
+    8057704 (99.99%) aligned concordantly 0 times
+    576 (0.01%) aligned concordantly exactly 1 time
+    629 (0.01%) aligned concordantly >1 times
+    ----
+    8057704 pairs aligned concordantly 0 times; of these:
+      29 (0.00%) aligned discordantly 1 time
+    ----
+    8057675 pairs aligned 0 times concordantly or discordantly; of these:
+      16115350 mates make up the pairs; of these:
+        16114632 (100.00%) aligned 0 times
+        285 (0.00%) aligned exactly 1 time
+        433 (0.00%) aligned >1 times
+0.02% overall alignment rate
