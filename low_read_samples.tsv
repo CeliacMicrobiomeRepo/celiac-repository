@@ -1,4 +1,4 @@
-Dataset ID	Sample ID	Number of reads (nonchim)
+Dataset_ID	Sample_ID	Number_Of_Reads_Nonchim
 16S_25_Francavilla	SRR1107516	240 reads
 16S_96_Quagliariello	ERR1551255	786 reads
 16S_96_Quagliariello	ERR1551306	0 reads

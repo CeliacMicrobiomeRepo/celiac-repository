@@ -167,64 +167,64 @@ High-level metadata regarding the datasets included in or excluded from CMR v1.0
 
 ### `included_datasets.tsv`
 Lists all datasets included in this version, along with key information like publication details, SRA references, sample counts, country, and sample site(s). It contains the following columns:
-  - `dataset_ID`: Unique identifier assigned to the dataset within the CMR.
-  - `bioproject_ID`: NCBI BioProject ID associated with the dataset, if available.
-  - `record link`: URL link to the primary data record (e.g., NCBI BioProject, specific database).
-  - `publication title`: Title of the associated peer-reviewed publication.
-  - `publication link`: URL link to the publication page.
-  - `month of publication`: Month and year the study was published (e.g., Dec-21).
+  - `Dataset_ID`: Unique identifier assigned to the dataset within the CMR.
+  - `Bioproject_ID`: NCBI BioProject ID associated with the dataset, if available.
+  - `Record_Link`: URL link to the primary data record (e.g., NCBI BioProject, specific database).
+  - `Publication_Title`: Title of the associated peer-reviewed publication.
+  - `Publication_Link`: URL link to the publication page.
+  - `Month_Of_Publication`: Month and year the study was published (e.g., Dec-21).
   - `DOI`: Digital Object Identifier for the publication.
-  - `used in previous meta-analysis`: Indicates if the dataset was included in known prior meta-analyses (TRUE/FALSE).
-  - `Lit. search source`: The database where the study was initially identified (e.g., 'NCBI SRA', 'Scopus').
-  - `Data source`: How the raw sequencing data was obtained (e.g., 'NCBI SRA', 'Shared via email').
-  - `sequencing type`: High-throughput sequencing method used ('16S' or 'SG').
-  - `sequencing technology`: Specific sequencing platform used (e.g., 'Illumina MiSeq', 'Ion Torrent').
-  - `prospective study`: Indicates if the study design was prospective (TRUE/FALSE).
-  - `sample site(s)`: Body site(s) from which samples were collected (e.g., 'stool', 'duodenum', 'stool|duodenum').
-  - `amplicon region`: Targeted 16S rRNA variable region(s) (e.g., 'V3-V4', 'V4'). 'NA' for shotgun data.
+  - `Used_In_Previous_Meta_Analysis`: Indicates if the dataset was included in known prior meta-analyses (TRUE/FALSE).
+  - `Lit_Search_Source`: The database where the study was initially identified (e.g., 'NCBI SRA', 'Scopus').
+  - `Data_Source`: How the raw sequencing data was obtained (e.g., 'NCBI SRA', 'Shared via email').
+  - `Sequencing_Type`: High-throughput sequencing method used ('16S' or 'SG').
+  - `Sequencing_Technology`: Specific sequencing platform used (e.g., 'Illumina MiSeq', 'Ion Torrent').
+  - `Prospective_Study`: Indicates if the study design was prospective (TRUE/FALSE).
+  - `Sample_Sites`: Body site(s) from which samples were collected (e.g., 'stool', 'duodenum', 'stool|duodenum').
+  - `Amplicon_Region`: Targeted 16S rRNA variable region(s) (e.g., 'V3-V4', 'V4'). 'NA' for shotgun data.
   - `V1`: Boolean flag indicating if the V1 16S variable region was targeted (TRUE/FALSE).
   - `V2`: Boolean flag indicating if the V2 16S variable region was targeted (TRUE/FALSE).
   - `V3`: Boolean flag indicating if the V3 16S variable region was targeted (TRUE/FALSE).
   - `V4`: Boolean flag indicating if the V4 16S variable region was targeted (TRUE/FALSE).
   - `V5`: Boolean flag indicating if the V5 16S variable region was targeted (TRUE/FALSE).
   - `V6`: Boolean flag indicating if the V6 16S variable region was targeted (TRUE/FALSE).
-  - `forward primer`: Forward primer sequence used for amplification, if reported.
-  - `reverse primer`: Reverse primer sequence used for amplification, if reported.
-  - `DNA extraction kit`: DNA extraction kit used, if reported.
-  - `read pairing`: Indicates if sequencing reads were paired-end ('paired') or single-end ('single').
-  - `trimming of reads (after acquisition)`: Indicates if any trimming was performed after data acquisition but before CMR processing (TRUE/FALSE or specific tool).
-  - `bowtie2 alignment sensitivity`: Sensitivity preset used for Bowtie2 alignment in host read removal for shotgun data.
-  - `host genome index`: Reference genome index used for host read removal.
-  - `MetaPhlAn database`: Specific database version used for taxonomic profiling with MetaPhlAn in shotgun data.
-  - `fw read trim position`: Forward read trimming length/position used in DADA2, if applicable.
-  - `rv read trim position`: Reverse read trimming length/position used in DADA2, if applicable.
-  - `ASV table length filter`: Specific length filter applied to the ASV table post-DADA2, if any.
-  - `notes from processing`: Any relevant notes made during data processing.
-  - `age range`: Age range of participants in the study, if reported.
-  - `num samples (processed and with metadata)`: Total number of samples from this dataset included in the final CMR.
-  - `num individuals (processed and with metadata)`: Total number of unique individuals represented by the included samples.
-  - `num celiac samples (processed and with metadata)`: Number of samples from diagnosed celiac individuals.
-  - `num GFD samples (processed and with metadata)`: Number of samples from individuals on a gluten-free diet.
-  - `num prospective celiac samples (processed and with metadata)`: Number of samples from individuals who later developed celiac disease (in prospective studies).
-  - `longitudinal study`: Indicates if the study involved sampling the same individuals at multiple time points (TRUE/FALSE).
-  - `country`: Country where the study was conducted/samples collected.
-  - `samples with significant factors`: Lists potential confounding factors present in some samples (e.g., 'gluten challenge', 'NCWS').
-  - `prospective studies`: Boolean flag indicating a prospective study design (TRUE/FALSE).
-  - `shotgun studies`: Boolean flag indicating a shotgun metagenomics dataset (TRUE/FALSE).
-  - `study design description`: Brief textual description of the study's design and comparison groups.
+  - `Forward_Primer`: Forward primer sequence used for amplification, if reported.
+  - `Reverse_Primer`: Reverse primer sequence used for amplification, if reported.
+  - `DNA_Extraction_Kit`: DNA extraction kit used, if reported.
+  - `Read_Pairing`: Indicates if sequencing reads were paired-end ('paired') or single-end ('single').
+  - `Trimming_Of_Reads_After_Acquisition`: Indicates if any trimming was performed after data acquisition but before CMR processing (TRUE/FALSE or specific tool).
+  - `Bowtie2_Alignment_Sensitivity`: Sensitivity preset used for Bowtie2 alignment in host read removal for shotgun data.
+  - `Host_Genome_Index`: Reference genome index used for host read removal.
+  - `MetaPhlAn_Database`: Specific database version used for taxonomic profiling with MetaPhlAn in shotgun data.
+  - `Fw_Read_Trim_Position`: Forward read trimming length/position used in DADA2, if applicable.
+  - `Rv_Read_Trim_Position`: Reverse read trimming length/position used in DADA2, if applicable.
+  - `ASV_Table_Length_Filter`: Specific length filter applied to the ASV table post-DADA2, if any.
+  - `Notes_From_Processing`: Any relevant notes made during data processing.
+  - `Age_Range`: Age range of participants in the study, if reported.
+  - `Num_Samples_Processed_And_With_Metadata`: Total number of samples from this dataset included in the final CMR.
+  - `Num_Individuals_Processed_And_With_Metadata`: Total number of unique individuals represented by the included samples.
+  - `Num_Celiac_Samples_Processed_And_With_Metadata`: Number of samples from diagnosed celiac individuals.
+  - `Num_GFD_Samples_Processed_And_With_Metadata`: Number of samples from individuals on a gluten-free diet.
+  - `Num_Prospective_Celiac_Samples_Processed_And_With_Metadata`: Number of samples from individuals who later developed celiac disease (in prospective studies).
+  - `Longitudinal_Study`: Indicates if the study involved sampling the same individuals at multiple time points (TRUE/FALSE).
+  - `Country`: Country where the study was conducted/samples collected.
+  - `Samples_With_Significant_Factors`: Lists potential confounding factors present in some samples (e.g., 'gluten challenge', 'NCWS').
+  - `Prospective_Studies`: Boolean flag indicating a prospective study design (TRUE/FALSE).
+  - `Shotgun_Studies`: Boolean flag indicating a shotgun metagenomics dataset (TRUE/FALSE).
+  - `Study_Design_Description`: Brief textual description of the study's design and comparison groups.
 
 ### `excluded_datasets.tsv`
 Lists datasets that were identified as eligible but excluded, along with the primary reason for exclusion. It contains the following columns:
-  - `Publication title`: The title of the peer-reviewed publication associated with the dataset.
-  - `Publication link`: A URL linking to the publication page.
-  - `Month of publication`: The month and year the study was published (e.g., Jun-23).
+  - `Publication_Title`: The title of the peer-reviewed publication associated with the dataset.
+  - `Publication_Link`: A URL linking to the publication page.
+  - `Month_Of_Publication`: The month and year the study was published (e.g., Jun-23).
   - `DOI`: The Digital Object Identifier for the publication.
-  - `record link`: A URL linking to the dataset record in a public repository (e.g., SRA), if applicable.
-  - `project_ID`: The unique identifier for the project in a public repository (e.g., SRA BioProject ID like PRJNA######), if applicable.
-  - `Lit. search source`: The database where the study was initially identified (e.g., 'NCBI SRA', 'Scopus').
-  - `Data availability`: Status indicating whether the raw sequencing data was accessible (e.g., 'unavailable', 'listed on SRA', 'available on SRA').
-  - `Reason for exclusion`: The specific reason why the dataset was not included in the CMR (e.g., 'no email response', 'privacy controls', 'large fees').
-  - `Sequencing type`: The high-throughput sequencing method used ('16S' or 'SG').
+  - `Record_Link`: A URL linking to the dataset record in a public repository (e.g., SRA), if applicable.
+  - `Project_ID`: The unique identifier for the project in a public repository (e.g., SRA BioProject ID like PRJNA######), if applicable.
+  - `Lit_Search_Source`: The database where the study was initially identified (e.g., 'NCBI SRA', 'Scopus').
+  - `Data_Availability`: Status indicating whether the raw sequencing data was accessible (e.g., 'unavailable', 'listed on SRA', 'available on SRA').
+  - `Reason_For_Exclusion`: The specific reason why the dataset was not included in the CMR (e.g., 'no email response', 'privacy controls', 'large fees').
+  - `Sequencing_Type`: The high-throughput sequencing method used ('16S' or 'SG').
 
 
 ## Sample Metadata Files
@@ -262,6 +262,6 @@ Contains metadata for every sample included in CMR v1.0. The file contains the f
 
 ### `low_read_samples.tsv`
 Lists samples from `all_samples.tsv` that had fewer than 1,000 reads after the DADA2 processing pipeline, which may be excluded from downstream analyses. It contains the following columns:
-  - `Dataset ID`: The unique identifier for the dataset the sample belongs to.
-  - `Sample ID`: The unique identifier assigned to the sample within the CMR.
-  - `Number of reads (nonchim)`: The number of reads remaining for this sample after DADA2 processing (originating from the sample's `tracking_reads.tsv` file).
+  - `Dataset_ID`: The unique identifier for the dataset the sample belongs to.
+  - `Sample_ID`: The unique identifier assigned to the sample within the CMR.
+  - `Number_Of_Reads_Nonchim`: The number of reads remaining for this sample after DADA2 processing (originating from the sample's `tracking_reads.tsv` file).

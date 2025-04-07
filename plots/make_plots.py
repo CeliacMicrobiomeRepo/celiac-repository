@@ -33,7 +33,7 @@ LOW_READ_SAMPLES_TSV = os.path.join(PARENT_DIR, "low_read_samples.tsv")
 INCLUDED_DATASETS_TSV = os.path.join(PARENT_DIR, "included_datasets.tsv")
 
 # Columns: Publication title	Publication link	Month of publication	DOI	record link	project_ID	Lit. search source	Data availability	Reason for exclusion	Sequencing type																					
-# Example row: Effects of a low FODMAP diet on gut microbiota in individuals with treated coeliac disease having persistent gastrointestinal symptoms � a randomised controlled trial	https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/effects-of-a-low-fodmap-diet-on-gut-microbiota-in-individuals-with-treated-coeliac-disease-having-persistent-gastrointestinal-symptoms-a-randomised-controlled-trial/BC777B9C41E45392E54CB8148BB6E3E9	Jun-23	10.1017/S0007114523001253	NA	NA	Scopus	unavailable	no email response from corresponding author(s)	16S																					
+# Example row: Effects of a low FODMAP diet on gut microbiota in individuals with treated coeliac disease having persistent gastrointestinal symptoms   a randomised controlled trial	https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/effects-of-a-low-fodmap-diet-on-gut-microbiota-in-individuals-with-treated-coeliac-disease-having-persistent-gastrointestinal-symptoms-a-randomised-controlled-trial/BC777B9C41E45392E54CB8148BB6E3E9	Jun-23	10.1017/S0007114523001253	NA	NA	Scopus	unavailable	no email response from corresponding author(s)	16S																					
 EXCLUDED_DATASETS_TSV = os.path.join(PARENT_DIR, "excluded_datasets.tsv")
 
 # Output directory - keep plots in the plots directory
