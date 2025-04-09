@@ -28,7 +28,7 @@ Below are visualisations summarising the data in CMR version 1.0.
 
 <p align="center">
   <img src="./plots/celiac_samples_world_map.png" width="54%" />
-  <img src="./plots/sample_types_table.png" width="41%" align="right" />
+  <img src="./plots/sample_types_table.png" width="40%" align="right" />
 </p>
 
 <p align="center">
