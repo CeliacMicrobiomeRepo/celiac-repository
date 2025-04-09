@@ -40,6 +40,11 @@ Below are visualisations summarising the data in CMR version 1.0.
 ### Version Documentation
 Details on the current version are available on this page: [Version 1.0 Documentation](version_docs/repo_version_1.0.md).
 
+## Future Developments of the CMR
+ - Update with the recent published data since Sept 2024
+ - Run additional metagenomics pipelines (e.g. HUMAnN 3.0)
+ - ...
+
 ## Contents
 
 ### Metadata
