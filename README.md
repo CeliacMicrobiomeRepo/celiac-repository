@@ -146,6 +146,8 @@ The scripts rely on several external tools and libraries, each with its own lice
 ### MetaPhlAn4 (v4.1.1)
 [MetaPhlAn4](https://huttenhower.sph.harvard.edu/metaphlan/) was used for taxonomic profiling of shotgun metagenomic data. (License: [MIT](https://github.com/biobakery/MetaPhlAn/blob/master/license.txt))
 
+## Reference
+To reference this repository... XYZ.
 
 ## Authors
 - **Haig Bishop**:    haig.bishop@pg.canterbury.ac.nz
