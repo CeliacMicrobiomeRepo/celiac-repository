@@ -27,8 +27,8 @@ Version 1.0 (up to date as of September 10th, 2024) represents the initial compr
 Below are visualisations summarising the data in CMR version 1.0.
 
 <p align="center">
-  <img src="./plots/celiac_samples_world_map.png" width="55%" />
-  <img src="./plots/sample_types_table.png" width="42%" align="right" />
+  <img src="./plots/celiac_samples_world_map.png" width="54%" />
+  <img src="./plots/sample_types_table.png" width="41%" align="right" />
 </p>
 
 <p align="center">
