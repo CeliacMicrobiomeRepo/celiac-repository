@@ -1,0 +1,33 @@
+Warning: skipping mate #2 of read 'SRR15595250.3244915 3244915 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595250.3244915 3244915 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595250.3972311 3972311 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595250.3972311 3972311 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595250.5033737 5033737 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595250.5033737 5033737 length=151' because it was < 2 characters long
+Warning: skipping mate #1 of read 'SRR15595250.5258254 5258254 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR15595250.5258254 5258254 length=151' because it was < 2 characters long
+Warning: skipping mate #1 of read 'SRR15595250.5693625 5693625 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR15595250.5693625 5693625 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595250.8591474 8591474 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595250.8591474 8591474 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595250.9792043 9792043 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595250.9792043 9792043 length=151' because it was < 2 characters long
+Warning: skipping mate #1 of read 'SRR15595250.19630069 19630069 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR15595250.19630069 19630069 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595250.20276650 20276650 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595250.20276650 20276650 length=151' because it was < 2 characters long
+21813916 reads; of these:
+  21813916 (100.00%) were paired; of these:
+    21793141 (99.90%) aligned concordantly 0 times
+    10839 (0.05%) aligned concordantly exactly 1 time
+    9936 (0.05%) aligned concordantly >1 times
+    ----
+    21793141 pairs aligned concordantly 0 times; of these:
+      328 (0.00%) aligned discordantly 1 time
+    ----
+    21792813 pairs aligned 0 times concordantly or discordantly; of these:
+      43585626 mates make up the pairs; of these:
+        43583166 (99.99%) aligned 0 times
+        858 (0.00%) aligned exactly 1 time
+        1602 (0.00%) aligned >1 times
+0.10% overall alignment rate

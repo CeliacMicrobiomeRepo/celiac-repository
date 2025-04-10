@@ -1,0 +1,27 @@
+Warning: skipping mate #2 of read 'SRR15595340.2575868 2575868 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595340.2575868 2575868 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595340.3115570 3115570 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595340.3115570 3115570 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595340.5125351 5125351 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595340.5125351 5125351 length=151' because it was < 2 characters long
+Warning: skipping mate #1 of read 'SRR15595340.5937743 5937743 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595340.5937743 5937743 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR15595340.5937743 5937743 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595340.5937743 5937743 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595340.10855870 10855870 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595340.10855870 10855870 length=151' because it was < 2 characters long
+12660359 reads; of these:
+  12660359 (100.00%) were paired; of these:
+    2604698 (20.57%) aligned concordantly 0 times
+    5733505 (45.29%) aligned concordantly exactly 1 time
+    4322156 (34.14%) aligned concordantly >1 times
+    ----
+    2604698 pairs aligned concordantly 0 times; of these:
+      1198707 (46.02%) aligned discordantly 1 time
+    ----
+    1405991 pairs aligned 0 times concordantly or discordantly; of these:
+      2811982 mates make up the pairs; of these:
+        273716 (9.73%) aligned 0 times
+        768390 (27.33%) aligned exactly 1 time
+        1769876 (62.94%) aligned >1 times
+98.92% overall alignment rate

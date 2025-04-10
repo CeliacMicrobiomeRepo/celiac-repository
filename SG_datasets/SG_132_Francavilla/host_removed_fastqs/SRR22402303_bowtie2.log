@@ -1,0 +1,4 @@
+Error, fewer reads in file specified with -1 than in file specified with -2. Last successfully parsed mate: @SRR22402303.31222736 31222736 length=151.
+terminate called after throwing an instance of 'int'
+Aborted (core dumped)
+(ERR): bowtie2-align exited with value 134

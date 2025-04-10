@@ -89,7 +89,7 @@ BASE_PROJECT_DIR = Path(__file__).resolve().parents[1]
 DATASET_BASE_DIR = BASE_PROJECT_DIR / "SG_datasets"
 # Specify dataset IDs relative to DATASET_BASE_DIR, or leave empty to process all dirs processed by script 02
 # Example: DATASET_IDS = ["SG_80_Mouzan", "SG_132_Francavilla"]
-DATASET_IDS = ["SG_4_Example"] # ["SG_80_Mouzan", "SG_132_Francavilla"]
+DATASET_IDS = ["SG_80_Mouzan", "SG_132_Francavilla"]
 
 # Subdirectory within each dataset dir containing input (host-removed) FASTQs
 INPUT_FASTQS_SUBDIR = "host_removed_fastqs"

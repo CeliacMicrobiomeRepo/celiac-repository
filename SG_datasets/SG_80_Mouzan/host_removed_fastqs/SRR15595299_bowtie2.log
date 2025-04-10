@@ -1,0 +1,31 @@
+Warning: skipping mate #2 of read 'SRR15595299.890963 890963 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595299.890963 890963 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595299.1404026 1404026 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595299.1404026 1404026 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595299.2351929 2351929 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595299.2351929 2351929 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595299.3935029 3935029 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595299.3935029 3935029 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595299.4609485 4609485 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595299.4609485 4609485 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595299.5236542 5236542 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595299.5236542 5236542 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595299.7619514 7619514 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595299.7619514 7619514 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595299.9471799 9471799 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595299.9471799 9471799 length=151' because it was < 2 characters long
+9857365 reads; of these:
+  9857365 (100.00%) were paired; of these:
+    1678005 (17.02%) aligned concordantly 0 times
+    4694924 (47.63%) aligned concordantly exactly 1 time
+    3484436 (35.35%) aligned concordantly >1 times
+    ----
+    1678005 pairs aligned concordantly 0 times; of these:
+      836214 (49.83%) aligned discordantly 1 time
+    ----
+    841791 pairs aligned 0 times concordantly or discordantly; of these:
+      1683582 mates make up the pairs; of these:
+        109427 (6.50%) aligned 0 times
+        456853 (27.14%) aligned exactly 1 time
+        1117302 (66.36%) aligned >1 times
+99.44% overall alignment rate

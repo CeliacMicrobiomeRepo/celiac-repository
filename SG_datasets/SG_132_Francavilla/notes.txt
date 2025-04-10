@@ -1,0 +1,30 @@
+2025-04-09 14:20:42,221 [INFO] Processing sample: SRR22402303
+2025-04-09 14:20:42,222 [INFO] Running Bowtie2 for SRR22402303...
+2025-04-09 14:42:09,466 [ERROR] Bowtie2 failed for SRR22402303!
+2025-04-09 14:42:09,466 [ERROR] Command: bowtie2 -x /mnt/b/CMR_v1/host_genome/GRCh38_noalt_decoy_as -1 /mnt/b/CMR_v1/SG_datasets/SG_132_Francavilla/input_fastqs/SRR22402303_1.fq.gz -2 /mnt/b/CMR_v1/SG_datasets/SG_132_Francavilla/input_fastqs/SRR22402303_2.fq.gz -S /dev/null --threads 26 --sensitive-local --no-unal --un-conc-gz /mnt/b/CMR_v1/SG_datasets/SG_132_Francavilla/host_removed_fastqs/SRR22402303_%.fq.gz
+2025-04-09 14:42:09,466 [ERROR] Return code: 134
+2025-04-09 14:42:09,467 [ERROR] Stderr: Error, fewer reads in file specified with -1 than in file specified with -2. Last successfully parsed mate: @SRR22402303.31222736 31222736 length=151.
+terminate called after throwing an instance of 'int'
+Aborted (core dumped)
+(ERR): bowtie2-align exited with value 134
+
+2025-04-09 14:42:09,469 [WARNING] Processing failed for sample: SRR22402303
+
+
+... This SRR22402303 sample seems corrupted, so I'll download it again. See:
+
+(base) ➜  ~     cd /mnt/b/CMR_v1/SG_datasets/SG_132_Francavilla/input_fastqs/
+    zcat SRR22402303_1.fq.gz | wc -l
+    zcat SRR22402303_2.fq.gz | wc -l
+
+gzip: SRR22402303_1.fq.gz: unexpected end of file
+124890925
+
+gzip: SRR22402303_2.fq.gz: unexpected end of file
+124892141
+(base) ➜  input_fastqs     cd /mnt/b/CMR_v1/SG_datasets/SG_132_Francavilla/input_fastqs/
+    zcat SRR22402284_1.fq.gz | wc -l
+    zcat SRR22402284_2.fq.gz | wc -l
+146558600
+146558600
+(base) ➜  input_fastqs  

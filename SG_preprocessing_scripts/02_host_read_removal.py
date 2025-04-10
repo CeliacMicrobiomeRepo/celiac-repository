@@ -96,7 +96,7 @@ BASE_PROJECT_DIR = Path(__file__).resolve().parents[1] # Assumes script is in SG
 DATASET_BASE_DIR = BASE_PROJECT_DIR / "SG_datasets"
 # Specify dataset IDs relative to DATASET_BASE_DIR, or leave empty to process all dirs found
 # Example: DATASET_IDS = ["SG_80_Mouzan", "SG_132_Francavilla"]
-DATASET_IDS = ["SG_4_Example"] # ["SG_80_Mouzan", "SG_132_Francavilla"]
+DATASET_IDS = ["SG_80_Mouzan", "SG_132_Francavilla"]
 
 # Subdirectory within each dataset dir containing input FASTQs
 INPUT_FASTQS_SUBDIR = "input_fastqs"
@@ -361,7 +361,7 @@ if __name__ == "__main__":
         if dataset_sample_stats:
             try:
                 with open(tsv_summary_path, 'w') as tsv_f:
-                    tsv_f.write("Sample\tPercent_Host_Reads_Removed\tTotal_Pairs\n")
+                    tsv_f.write("Sample\tPercent_Host_Reads_Removed\Total_Pairs_Before_Removal\n")
                     # Sort by sample name for consistent order
                     for sample, (percent, total) in sorted(dataset_sample_stats.items()):
                         tsv_f.write(f"{sample}\t{percent:.2f}\t{total}\n")

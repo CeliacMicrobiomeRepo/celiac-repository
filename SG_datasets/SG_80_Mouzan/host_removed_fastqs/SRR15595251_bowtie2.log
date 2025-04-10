@@ -1,0 +1,33 @@
+Warning: skipping mate #2 of read 'SRR15595251.245583 245583 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595251.245583 245583 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595251.1178136 1178136 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595251.1178136 1178136 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595251.1682656 1682656 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595251.1682656 1682656 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595251.2999353 2999353 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595251.2999353 2999353 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595251.3425277 3425277 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595251.3425277 3425277 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595251.4046735 4046735 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595251.4046735 4046735 length=151' because it was < 2 characters long
+Warning: skipping mate #1 of read 'SRR15595251.4912966 4912966 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR15595251.4912966 4912966 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595251.6013965 6013965 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595251.6013965 6013965 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595251.6034066 6034066 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595251.6034066 6034066 length=151' because it was < 2 characters long
+8296875 reads; of these:
+  8296875 (100.00%) were paired; of these:
+    1266695 (15.27%) aligned concordantly 0 times
+    3805571 (45.87%) aligned concordantly exactly 1 time
+    3224609 (38.87%) aligned concordantly >1 times
+    ----
+    1266695 pairs aligned concordantly 0 times; of these:
+      592547 (46.78%) aligned discordantly 1 time
+    ----
+    674148 pairs aligned 0 times concordantly or discordantly; of these:
+      1348296 mates make up the pairs; of these:
+        90810 (6.74%) aligned 0 times
+        362448 (26.88%) aligned exactly 1 time
+        895038 (66.38%) aligned >1 times
+99.45% overall alignment rate
