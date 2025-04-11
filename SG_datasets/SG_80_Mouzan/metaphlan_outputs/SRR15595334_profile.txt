@@ -1,0 +1,6 @@
+#mpa_vJun23_CHOCOPhlAnSGB_202403
+#/home/haig/miniconda3/envs/metagenomics/bin/metaphlan /mnt/b/CMR_v1/SG_datasets/SG_80_Mouzan/host_removed_fastqs/SRR15595334_1.fq.gz,/mnt/b/CMR_v1/SG_datasets/SG_80_Mouzan/host_removed_fastqs/SRR15595334_2.fq.gz --input_type fastq --nproc 26 -o /mnt/b/CMR_v1/SG_datasets/SG_80_Mouzan/metaphlan_outputs/SRR15595334_profile.txt --bowtie2db /home/haig/miniconda3/envs/metagenomics/lib/python3.9/site-packages/metaphlan/metaphlan_databases --index mpa_vJun23_CHOCOPhlAnSGB_202403 --bowtie2out /mnt/b/CMR_v1/SG_datasets/SG_80_Mouzan/metaphlan_outputs/SRR15595334_bowtie2.sam
+#4406096 reads processed
+#SampleID	Metaphlan_Analysis
+#clade_name	NCBI_tax_id	relative_abundance	additional_species
+UNCLASSIFIED	-1	100.0	

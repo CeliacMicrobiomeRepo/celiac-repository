@@ -1,0 +1,20 @@
+#mpa_vJun23_CHOCOPhlAnSGB_202403
+#/home/haig/miniconda3/envs/metagenomics/bin/metaphlan /mnt/b/CMR_v1/SG_datasets/SG_80_Mouzan/host_removed_fastqs/SRR15595348_1.fq.gz,/mnt/b/CMR_v1/SG_datasets/SG_80_Mouzan/host_removed_fastqs/SRR15595348_2.fq.gz --input_type fastq --nproc 26 -o /mnt/b/CMR_v1/SG_datasets/SG_80_Mouzan/metaphlan_outputs/SRR15595348_profile.txt --bowtie2db /home/haig/miniconda3/envs/metagenomics/lib/python3.9/site-packages/metaphlan/metaphlan_databases --index mpa_vJun23_CHOCOPhlAnSGB_202403 --bowtie2out /mnt/b/CMR_v1/SG_datasets/SG_80_Mouzan/metaphlan_outputs/SRR15595348_bowtie2.sam
+#1792162 reads processed
+#SampleID	Metaphlan_Analysis
+#clade_name	NCBI_tax_id	relative_abundance	additional_species
+k__Bacteria	2	100.0	
+k__Bacteria|p__Bacteroidota	2|976	56.84515	
+k__Bacteria|p__Firmicutes	2|1239	43.15485	
+k__Bacteria|p__Bacteroidota|c__Flavobacteriia	2|976|117743	56.84515	
+k__Bacteria|p__Firmicutes|c__Bacilli	2|1239|91061	43.15485	
+k__Bacteria|p__Bacteroidota|c__Flavobacteriia|o__Flavobacteriales	2|976|117743|200644	56.84515	
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales	2|1239|91061|1385	43.15485	
+k__Bacteria|p__Bacteroidota|c__Flavobacteriia|o__Flavobacteriales|f__Flavobacteriaceae	2|976|117743|200644|49546	56.84515	
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Bacillaceae	2|1239|91061|1385|186817	43.15485	
+k__Bacteria|p__Bacteroidota|c__Flavobacteriia|o__Flavobacteriales|f__Flavobacteriaceae|g__Imtechella	2|976|117743|200644|49546|1165076	56.84515	
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Bacillaceae|g__Allobacillus	2|1239|91061|1385|186817|1400133	43.15485	
+k__Bacteria|p__Bacteroidota|c__Flavobacteriia|o__Flavobacteriales|f__Flavobacteriaceae|g__Imtechella|s__Imtechella_halotolerans	2|976|117743|200644|49546|1165076|1165090	56.84515	
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Bacillaceae|g__Allobacillus|s__Allobacillus_halotolerans	2|1239|91061|1385|186817|1400133|570278	43.15485	
+k__Bacteria|p__Bacteroidota|c__Flavobacteriia|o__Flavobacteriales|f__Flavobacteriaceae|g__Imtechella|s__Imtechella_halotolerans|t__SGB2930	2|976|117743|200644|49546|1165076|1165090|	56.84515	
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Bacillaceae|g__Allobacillus|s__Allobacillus_halotolerans|t__SGB82767	2|1239|91061|1385|186817|1400133|570278|	43.15485	k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Bacillaceae|g__Allobacillus|s__Allobacillus_sp_SKP2_8
