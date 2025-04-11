@@ -1512,3 +1512,41 @@ Integrative HMP (iHMP) Consortium, 2014 – “The Integrative Human Microbiome 
 2025-04-11 04:41:27,565 [INFO] SG_80_Mouzan/SRR15595353: 91.90% reads removed
 2025-04-11 04:41:27,565 [INFO] Host read removal process finished.
 (metagenomics) ➜  SG_preprocessing_scripts
+
+
+
+
+
+
+
+
+
+
+(base) ➜  ~ conda activate metagenomics
+cd /mnt/b/CMR_v1/SG_preprocessing_scripts
+python 02_host_read_removal.py
+2025-04-11 22:52:17,343 [INFO] Starting host read removal process.
+2025-04-11 22:52:17,344 [INFO] Project base directory: /mnt/b/CMR_v1
+2025-04-11 22:52:17,344 [INFO] Dataset base directory: /mnt/b/CMR_v1/SG_datasets
+2025-04-11 22:52:17,344 [INFO] Host index: /mnt/b/CMR_v1/host_genome/GRCh38_noalt_decoy_as
+2025-04-11 22:52:17,344 [INFO] Log file: /mnt/b/CMR_v1/host_removal_summary.log
+2025-04-11 22:52:17,345 [INFO] Found 1 dataset directories to process:
+2025-04-11 22:52:17,345 [INFO] - SG_1_Francavilla
+2025-04-11 22:52:17,345 [INFO] --- Processing Dataset: SG_1_Francavilla ---
+2025-04-11 22:52:17,347 [INFO] Output directory: /mnt/b/CMR_v1/SG_datasets/SG_1_Francavilla/host_removed_fastqs
+2025-04-11 22:52:17,348 [INFO] Found 1 potential R1 files in /mnt/b/CMR_v1/SG_datasets/SG_1_Francavilla/input_fastqs
+2025-04-11 22:52:17,349 [INFO] Identified 1 valid FASTQ pairs.
+2025-04-11 22:52:17,349 [INFO] Processing sample: SRR22402303
+2025-04-11 22:52:17,350 [INFO] Running Bowtie2 for SRR22402303...
+2025-04-11 23:20:22,707 [INFO] Bowtie2 completed successfully for SRR22402303.
+2025-04-11 23:20:22,710 [INFO] Bowtie2 log saved to: /mnt/b/CMR_v1/SG_datasets/SG_1_Francavilla/host_removed_fastqs/SRR22402303_bowtie2.log
+2025-04-11 23:20:22,715 [INFO] SRR22402303: Total pairs ~=35143829, Host-aligned pairs ~=193312 (0.55% removed)
+2025-04-11 23:20:22,715 [INFO] Finished SRR22402303: 0.55% reads removed.
+2025-04-11 23:20:22,717 [INFO] Wrote removal summary for dataset SG_1_Francavilla to: /mnt/b/CMR_v1/SG_datasets/SG_1_Francavilla/about_host_read_removal.tsv
+2025-04-11 23:20:22,717 [INFO] --- Host Removal Summary ---
+2025-04-11 23:20:22,717 [INFO] Successfully processed 1 dataset(s).
+2025-04-11 23:20:22,717 [INFO] Overall removal percentages per sample:
+2025-04-11 23:20:22,717 [INFO] SG_1_Francavilla/SRR22402303: 0.55% reads removed
+2025-04-11 23:20:22,717 [INFO] Host read removal process finished.
+2025-04-11 23:20:22,717 [INFO] Overall summary log saved to: /mnt/b/CMR_v1/host_removal_summary.log
+(metagenomics) ➜  SG_preprocessing_scripts 

@@ -1,4 +1,15 @@
-Error, fewer reads in file specified with -1 than in file specified with -2. Last successfully parsed mate: @SRR22402303.31222736 31222736 length=151.
-terminate called after throwing an instance of 'int'
-Aborted (core dumped)
-(ERR): bowtie2-align exited with value 134
+35143829 reads; of these:
+  35143829 (100.00%) were paired; of these:
+    34966079 (99.49%) aligned concordantly 0 times
+    121919 (0.35%) aligned concordantly exactly 1 time
+    55831 (0.16%) aligned concordantly >1 times
+    ----
+    34966079 pairs aligned concordantly 0 times; of these:
+      15562 (0.04%) aligned discordantly 1 time
+    ----
+    34950517 pairs aligned 0 times concordantly or discordantly; of these:
+      69901034 mates make up the pairs; of these:
+        69857366 (99.94%) aligned 0 times
+        13972 (0.02%) aligned exactly 1 time
+        29696 (0.04%) aligned >1 times
+0.61% overall alignment rate
