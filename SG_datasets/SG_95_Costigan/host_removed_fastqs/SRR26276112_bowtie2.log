@@ -1,0 +1,25 @@
+Warning: skipping mate #1 of read 'SRR26276112.9647389 A00551:652:HTY7HDSX5:4:1372:2754:9831 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR26276112.9647389 A00551:652:HTY7HDSX5:4:1372:2754:9831 length=150' because it was < 2 characters long
+Warning: skipping mate #1 of read 'SRR26276112.12515944 A00551:652:HTY7HDSX5:4:1523:26449:35086 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR26276112.12515944 A00551:652:HTY7HDSX5:4:1523:26449:35086 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR26276112.12515944 A00551:652:HTY7HDSX5:4:1523:26449:35086 length=150' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR26276112.12515944 A00551:652:HTY7HDSX5:4:1523:26449:35086 length=150' because it was < 2 characters long
+Warning: skipping mate #1 of read 'SRR26276112.13868795 A00551:652:HTY7HDSX5:4:1574:19877:27398 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR26276112.13868795 A00551:652:HTY7HDSX5:4:1574:19877:27398 length=150' because it was < 2 characters long
+Warning: skipping mate #1 of read 'SRR26276112.27373671 A00551:652:HTY7HDSX5:4:2653:3884:27915 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR26276112.27373671 A00551:652:HTY7HDSX5:4:2653:3884:27915 length=150' because it was < 2 characters long
+28023124 reads; of these:
+  28023124 (100.00%) were paired; of these:
+    28022336 (100.00%) aligned concordantly 0 times
+    354 (0.00%) aligned concordantly exactly 1 time
+    434 (0.00%) aligned concordantly >1 times
+    ----
+    28022336 pairs aligned concordantly 0 times; of these:
+      52 (0.00%) aligned discordantly 1 time
+    ----
+    28022284 pairs aligned 0 times concordantly or discordantly; of these:
+      56044568 mates make up the pairs; of these:
+        56035060 (99.98%) aligned 0 times
+        4004 (0.01%) aligned exactly 1 time
+        5504 (0.01%) aligned >1 times
+0.02% overall alignment rate

@@ -1,0 +1,19 @@
+Warning: skipping mate #2 of read 'SRR31108389.6240500 E00526:70:HV3CTCCXY:2:1119:28919:33340 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR31108389.6240500 E00526:70:HV3CTCCXY:2:1119:28919:33340 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR31108389.13118262 E00526:70:HV3CTCCXY:3:1202:20689:53539 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR31108389.13118262 E00526:70:HV3CTCCXY:3:1202:20689:53539 length=151' because it was < 2 characters long
+17841150 reads; of these:
+  17841150 (100.00%) were paired; of these:
+    17828966 (99.93%) aligned concordantly 0 times
+    7159 (0.04%) aligned concordantly exactly 1 time
+    5025 (0.03%) aligned concordantly >1 times
+    ----
+    17828966 pairs aligned concordantly 0 times; of these:
+      126 (0.00%) aligned discordantly 1 time
+    ----
+    17828840 pairs aligned 0 times concordantly or discordantly; of these:
+      35657680 mates make up the pairs; of these:
+        35656163 (100.00%) aligned 0 times
+        900 (0.00%) aligned exactly 1 time
+        617 (0.00%) aligned >1 times
+0.07% overall alignment rate

@@ -1,0 +1,33 @@
+Warning: skipping mate #1 of read 'SRR26276132.8347595 A00551:652:HTY7HDSX5:4:1253:19759:18615 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR26276132.8347595 A00551:652:HTY7HDSX5:4:1253:19759:18615 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR26276132.8347595 A00551:652:HTY7HDSX5:4:1253:19759:18615 length=150' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR26276132.8347595 A00551:652:HTY7HDSX5:4:1253:19759:18615 length=150' because it was < 2 characters long
+Warning: skipping mate #1 of read 'SRR26276132.11844948 A00551:652:HTY7HDSX5:4:1418:31693:15984 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR26276132.11844948 A00551:652:HTY7HDSX5:4:1418:31693:15984 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR26276132.11844948 A00551:652:HTY7HDSX5:4:1418:31693:15984 length=150' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR26276132.11844948 A00551:652:HTY7HDSX5:4:1418:31693:15984 length=150' because it was < 2 characters long
+Warning: skipping mate #1 of read 'SRR26276132.15971937 A00551:652:HTY7HDSX5:4:1605:25834:7028 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR26276132.15971937 A00551:652:HTY7HDSX5:4:1605:25834:7028 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR26276132.15971937 A00551:652:HTY7HDSX5:4:1605:25834:7028 length=150' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR26276132.15971937 A00551:652:HTY7HDSX5:4:1605:25834:7028 length=150' because it was < 2 characters long
+Warning: skipping mate #1 of read 'SRR26276132.23817957 A00551:652:HTY7HDSX5:4:2349:24415:3630 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR26276132.23817957 A00551:652:HTY7HDSX5:4:2349:24415:3630 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR26276132.23817957 A00551:652:HTY7HDSX5:4:2349:24415:3630 length=150' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR26276132.23817957 A00551:652:HTY7HDSX5:4:2349:24415:3630 length=150' because it was < 2 characters long
+Warning: skipping mate #1 of read 'SRR26276132.30945269 A00551:652:HTY7HDSX5:4:2667:18358:36855 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR26276132.30945269 A00551:652:HTY7HDSX5:4:2667:18358:36855 length=150' because it was < 2 characters long
+31253226 reads; of these:
+  31253226 (100.00%) were paired; of these:
+    31251892 (100.00%) aligned concordantly 0 times
+    622 (0.00%) aligned concordantly exactly 1 time
+    712 (0.00%) aligned concordantly >1 times
+    ----
+    31251892 pairs aligned concordantly 0 times; of these:
+      86 (0.00%) aligned discordantly 1 time
+    ----
+    31251806 pairs aligned 0 times concordantly or discordantly; of these:
+      62503612 mates make up the pairs; of these:
+        62491905 (99.98%) aligned 0 times
+        4876 (0.01%) aligned exactly 1 time
+        6831 (0.01%) aligned >1 times
+0.02% overall alignment rate

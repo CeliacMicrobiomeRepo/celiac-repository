@@ -1,0 +1,53 @@
+Warning: skipping mate #1 of read 'SRR26276056.9116404 A00551:652:HTY7HDSX5:4:1342:12002:23469 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR26276056.9116404 A00551:652:HTY7HDSX5:4:1342:12002:23469 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR26276056.9116404 A00551:652:HTY7HDSX5:4:1342:12002:23469 length=150' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR26276056.9116404 A00551:652:HTY7HDSX5:4:1342:12002:23469 length=150' because it was < 2 characters long
+Warning: skipping mate #1 of read 'SRR26276056.12299188 A00551:652:HTY7HDSX5:4:1466:17951:1705 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR26276056.12299188 A00551:652:HTY7HDSX5:4:1466:17951:1705 length=150' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR26276056.14890722 A00551:652:HTY7HDSX5:4:1570:32524:26068 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR26276056.14890722 A00551:652:HTY7HDSX5:4:1570:32524:26068 length=150' because it was < 2 characters long
+Warning: skipping mate #1 of read 'SRR26276056.16431534 A00551:652:HTY7HDSX5:4:1642:31033:6637 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR26276056.16431534 A00551:652:HTY7HDSX5:4:1642:31033:6637 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR26276056.16431534 A00551:652:HTY7HDSX5:4:1642:31033:6637 length=150' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR26276056.16431534 A00551:652:HTY7HDSX5:4:1642:31033:6637 length=150' because it was < 2 characters long
+Warning: skipping mate #1 of read 'SRR26276056.17208206 A00551:652:HTY7HDSX5:4:1666:9444:31876 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR26276056.17208206 A00551:652:HTY7HDSX5:4:1666:9444:31876 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR26276056.17208206 A00551:652:HTY7HDSX5:4:1666:9444:31876 length=150' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR26276056.17208206 A00551:652:HTY7HDSX5:4:1666:9444:31876 length=150' because it was < 2 characters long
+Warning: skipping mate #1 of read 'SRR26276056.19583876 A00551:652:HTY7HDSX5:4:2167:18909:2644 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR26276056.19583876 A00551:652:HTY7HDSX5:4:2167:18909:2644 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR26276056.19583876 A00551:652:HTY7HDSX5:4:2167:18909:2644 length=150' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR26276056.19583876 A00551:652:HTY7HDSX5:4:2167:18909:2644 length=150' because it was < 2 characters long
+Warning: skipping mate #1 of read 'SRR26276056.20208524 A00551:652:HTY7HDSX5:4:2209:19190:32127 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR26276056.20208524 A00551:652:HTY7HDSX5:4:2209:19190:32127 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR26276056.20208524 A00551:652:HTY7HDSX5:4:2209:19190:32127 length=150' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR26276056.20208524 A00551:652:HTY7HDSX5:4:2209:19190:32127 length=150' because it was < 2 characters long
+Warning: skipping mate #1 of read 'SRR26276056.23127603 A00551:652:HTY7HDSX5:4:2328:32353:21762 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR26276056.23127603 A00551:652:HTY7HDSX5:4:2328:32353:21762 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR26276056.23127603 A00551:652:HTY7HDSX5:4:2328:32353:21762 length=150' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR26276056.23127603 A00551:652:HTY7HDSX5:4:2328:32353:21762 length=150' because it was < 2 characters long
+Warning: skipping mate #1 of read 'SRR26276056.24073740 A00551:652:HTY7HDSX5:4:2359:7410:30389 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR26276056.24073740 A00551:652:HTY7HDSX5:4:2359:7410:30389 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR26276056.24073740 A00551:652:HTY7HDSX5:4:2359:7410:30389 length=150' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR26276056.24073740 A00551:652:HTY7HDSX5:4:2359:7410:30389 length=150' because it was < 2 characters long
+Warning: skipping mate #1 of read 'SRR26276056.24727529 A00551:652:HTY7HDSX5:4:2403:8983:14512 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR26276056.24727529 A00551:652:HTY7HDSX5:4:2403:8983:14512 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR26276056.24727529 A00551:652:HTY7HDSX5:4:2403:8983:14512 length=150' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR26276056.24727529 A00551:652:HTY7HDSX5:4:2403:8983:14512 length=150' because it was < 2 characters long
+Warning: skipping mate #1 of read 'SRR26276056.24769223 A00551:652:HTY7HDSX5:4:2404:25391:27430 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR26276056.24769223 A00551:652:HTY7HDSX5:4:2404:25391:27430 length=150' because it was < 2 characters long
+31777896 reads; of these:
+  31777896 (100.00%) were paired; of these:
+    31775690 (99.99%) aligned concordantly 0 times
+    905 (0.00%) aligned concordantly exactly 1 time
+    1301 (0.00%) aligned concordantly >1 times
+    ----
+    31775690 pairs aligned concordantly 0 times; of these:
+      58 (0.00%) aligned discordantly 1 time
+    ----
+    31775632 pairs aligned 0 times concordantly or discordantly; of these:
+      63551264 mates make up the pairs; of these:
+        63536804 (99.98%) aligned 0 times
+        7529 (0.01%) aligned exactly 1 time
+        6931 (0.01%) aligned >1 times
+0.03% overall alignment rate

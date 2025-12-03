@@ -1,0 +1,43 @@
+Warning: skipping mate #2 of read 'SRR15595275.684080 684080 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595275.684080 684080 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595275.1368732 1368732 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595275.1368732 1368732 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595275.1936649 1936649 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595275.1936649 1936649 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595275.2096732 2096732 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595275.2096732 2096732 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595275.2262088 2262088 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595275.2262088 2262088 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595275.3290315 3290315 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595275.3290315 3290315 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595275.4658311 4658311 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595275.4658311 4658311 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595275.5345954 5345954 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595275.5345954 5345954 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595275.5698578 5698578 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595275.5698578 5698578 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595275.6955299 6955299 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595275.6955299 6955299 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595275.7194539 7194539 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595275.7194539 7194539 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595275.7744234 7744234 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595275.7744234 7744234 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595275.8904050 8904050 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595275.8904050 8904050 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595275.10098380 10098380 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595275.10098380 10098380 length=151' because it was < 2 characters long
+10556966 reads; of these:
+  10556966 (100.00%) were paired; of these:
+    10523900 (99.69%) aligned concordantly 0 times
+    19132 (0.18%) aligned concordantly exactly 1 time
+    13934 (0.13%) aligned concordantly >1 times
+    ----
+    10523900 pairs aligned concordantly 0 times; of these:
+      1528 (0.01%) aligned discordantly 1 time
+    ----
+    10522372 pairs aligned 0 times concordantly or discordantly; of these:
+      21044744 mates make up the pairs; of these:
+        21035198 (99.95%) aligned 0 times
+        4348 (0.02%) aligned exactly 1 time
+        5198 (0.02%) aligned >1 times
+0.37% overall alignment rate

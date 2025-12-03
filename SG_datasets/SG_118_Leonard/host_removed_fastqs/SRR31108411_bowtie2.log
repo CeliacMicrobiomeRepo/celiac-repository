@@ -1,0 +1,19 @@
+Warning: skipping mate #2 of read 'SRR31108411.15920370 E00489:213:HJ3GNCCXY:2:2104:13403:45488 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR31108411.15920370 E00489:213:HJ3GNCCXY:2:2104:13403:45488 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR31108411.23295155 E00489:213:HJ3GNCCXY:2:2206:15615:50762 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR31108411.23295155 E00489:213:HJ3GNCCXY:2:2206:15615:50762 length=151' because it was < 2 characters long
+28664546 reads; of these:
+  28664546 (100.00%) were paired; of these:
+    28615145 (99.83%) aligned concordantly 0 times
+    29038 (0.10%) aligned concordantly exactly 1 time
+    20363 (0.07%) aligned concordantly >1 times
+    ----
+    28615145 pairs aligned concordantly 0 times; of these:
+      532 (0.00%) aligned discordantly 1 time
+    ----
+    28614613 pairs aligned 0 times concordantly or discordantly; of these:
+      57229226 mates make up the pairs; of these:
+        57227109 (100.00%) aligned 0 times
+        1215 (0.00%) aligned exactly 1 time
+        902 (0.00%) aligned >1 times
+0.18% overall alignment rate

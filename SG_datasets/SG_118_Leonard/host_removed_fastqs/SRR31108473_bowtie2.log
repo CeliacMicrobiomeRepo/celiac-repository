@@ -1,0 +1,25 @@
+Warning: skipping mate #2 of read 'SRR31108473.1393375 MG01HX03:152:HK5KNCCXY:6:1112:1509:19750 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR31108473.1393375 MG01HX03:152:HK5KNCCXY:6:1112:1509:19750 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR31108473.3801501 MG01HX03:152:HK5KNCCXY:6:1208:20983:14600 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR31108473.3801501 MG01HX03:152:HK5KNCCXY:6:1208:20983:14600 length=151' because it was < 2 characters long
+Warning: skipping mate #1 of read 'SRR31108473.13208391 MG01HX03:152:HK5KNCCXY:7:1111:27062:35010 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR31108473.13208391 MG01HX03:152:HK5KNCCXY:7:1111:27062:35010 length=151' because it was < 2 characters long
+Warning: skipping mate #1 of read 'SRR31108473.17019965 MG01HX03:152:HK5KNCCXY:7:1218:32623:24286 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR31108473.17019965 MG01HX03:152:HK5KNCCXY:7:1218:32623:24286 length=151' because it was < 2 characters long
+Warning: skipping mate #1 of read 'SRR31108473.18780525 MG01HX03:152:HK5KNCCXY:7:2108:19431:23442 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR31108473.18780525 MG01HX03:152:HK5KNCCXY:7:2108:19431:23442 length=151' because it was < 2 characters long
+23955000 reads; of these:
+  23955000 (100.00%) were paired; of these:
+    23926516 (99.88%) aligned concordantly 0 times
+    14996 (0.06%) aligned concordantly exactly 1 time
+    13488 (0.06%) aligned concordantly >1 times
+    ----
+    23926516 pairs aligned concordantly 0 times; of these:
+      253 (0.00%) aligned discordantly 1 time
+    ----
+    23926263 pairs aligned 0 times concordantly or discordantly; of these:
+      47852526 mates make up the pairs; of these:
+        47851305 (100.00%) aligned 0 times
+        611 (0.00%) aligned exactly 1 time
+        610 (0.00%) aligned >1 times
+0.12% overall alignment rate

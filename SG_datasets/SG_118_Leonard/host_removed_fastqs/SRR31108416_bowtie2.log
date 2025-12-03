@@ -1,0 +1,17 @@
+Warning: skipping mate #1 of read 'SRR31108416.15997298 MG01HX03:172:HKC25CCXY:1:2222:29833:49408 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR31108416.15997298 MG01HX03:172:HKC25CCXY:1:2222:29833:49408 length=151' because it was < 2 characters long
+19334753 reads; of these:
+  19334753 (100.00%) were paired; of these:
+    19138473 (98.98%) aligned concordantly 0 times
+    108445 (0.56%) aligned concordantly exactly 1 time
+    87835 (0.45%) aligned concordantly >1 times
+    ----
+    19138473 pairs aligned concordantly 0 times; of these:
+      2659 (0.01%) aligned discordantly 1 time
+    ----
+    19135814 pairs aligned 0 times concordantly or discordantly; of these:
+      38271628 mates make up the pairs; of these:
+        38268879 (99.99%) aligned 0 times
+        1074 (0.00%) aligned exactly 1 time
+        1675 (0.00%) aligned >1 times
+1.04% overall alignment rate

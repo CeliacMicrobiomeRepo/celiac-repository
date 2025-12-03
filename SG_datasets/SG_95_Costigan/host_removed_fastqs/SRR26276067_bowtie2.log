@@ -1,0 +1,23 @@
+Warning: skipping mate #2 of read 'SRR26276067.2062984 NB501531:170:HMYMGBGXH:3:12504:5250:11191 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR26276067.2062984 NB501531:170:HMYMGBGXH:3:12504:5250:11191 length=151' because it was < 2 characters long
+Warning: skipping mate #1 of read 'SRR26276067.16108666 A00551:652:HTY7HDSX5:4:1672:27317:16767 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR26276067.16108666 A00551:652:HTY7HDSX5:4:1672:27317:16767 length=150' because it was < 2 characters long
+Warning: skipping mate #1 of read 'SRR26276067.27817093 A00551:652:HTY7HDSX5:4:2654:17879:5055 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR26276067.27817093 A00551:652:HTY7HDSX5:4:2654:17879:5055 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR26276067.27817093 A00551:652:HTY7HDSX5:4:2654:17879:5055 length=150' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR26276067.27817093 A00551:652:HTY7HDSX5:4:2654:17879:5055 length=150' because it was < 2 characters long
+28468542 reads; of these:
+  28468542 (100.00%) were paired; of these:
+    28467526 (100.00%) aligned concordantly 0 times
+    463 (0.00%) aligned concordantly exactly 1 time
+    553 (0.00%) aligned concordantly >1 times
+    ----
+    28467526 pairs aligned concordantly 0 times; of these:
+      84 (0.00%) aligned discordantly 1 time
+    ----
+    28467442 pairs aligned 0 times concordantly or discordantly; of these:
+      56934884 mates make up the pairs; of these:
+        56922943 (99.98%) aligned 0 times
+        4902 (0.01%) aligned exactly 1 time
+        7039 (0.01%) aligned >1 times
+0.02% overall alignment rate

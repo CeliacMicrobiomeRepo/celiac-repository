@@ -1,0 +1,27 @@
+Warning: skipping mate #2 of read 'SRR15595331.1408980 1408980 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595331.1408980 1408980 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595331.2495554 2495554 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595331.2495554 2495554 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595331.5676839 5676839 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595331.5676839 5676839 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595331.7359697 7359697 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595331.7359697 7359697 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595331.12539007 12539007 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595331.12539007 12539007 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595331.12931378 12931378 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595331.12931378 12931378 length=151' because it was < 2 characters long
+14762978 reads; of these:
+  14762978 (100.00%) were paired; of these:
+    2246763 (15.22%) aligned concordantly 0 times
+    7356629 (49.83%) aligned concordantly exactly 1 time
+    5159586 (34.95%) aligned concordantly >1 times
+    ----
+    2246763 pairs aligned concordantly 0 times; of these:
+      1071403 (47.69%) aligned discordantly 1 time
+    ----
+    1175360 pairs aligned 0 times concordantly or discordantly; of these:
+      2350720 mates make up the pairs; of these:
+        160725 (6.84%) aligned 0 times
+        649397 (27.63%) aligned exactly 1 time
+        1540598 (65.54%) aligned >1 times
+99.46% overall alignment rate

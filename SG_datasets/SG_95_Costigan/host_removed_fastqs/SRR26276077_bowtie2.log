@@ -1,0 +1,25 @@
+Warning: skipping mate #1 of read 'SRR26276077.22808996 A00551:652:HTY7HDSX5:4:1425:16622:21605 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR26276077.22808996 A00551:652:HTY7HDSX5:4:1425:16622:21605 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR26276077.22808996 A00551:652:HTY7HDSX5:4:1425:16622:21605 length=150' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR26276077.22808996 A00551:652:HTY7HDSX5:4:1425:16622:21605 length=150' because it was < 2 characters long
+Warning: skipping mate #1 of read 'SRR26276077.28354107 A00551:652:HTY7HDSX5:4:1526:28357:5290 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR26276077.28354107 A00551:652:HTY7HDSX5:4:1526:28357:5290 length=150' because it was < 2 characters long
+Warning: skipping mate #1 of read 'SRR26276077.32020638 A00551:652:HTY7HDSX5:4:1577:22001:36338 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR26276077.32020638 A00551:652:HTY7HDSX5:4:1577:22001:36338 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR26276077.32020638 A00551:652:HTY7HDSX5:4:1577:22001:36338 length=150' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR26276077.32020638 A00551:652:HTY7HDSX5:4:1577:22001:36338 length=150' because it was < 2 characters long
+70417283 reads; of these:
+  70417283 (100.00%) were paired; of these:
+    70416381 (100.00%) aligned concordantly 0 times
+    360 (0.00%) aligned concordantly exactly 1 time
+    542 (0.00%) aligned concordantly >1 times
+    ----
+    70416381 pairs aligned concordantly 0 times; of these:
+      95 (0.00%) aligned discordantly 1 time
+    ----
+    70416286 pairs aligned 0 times concordantly or discordantly; of these:
+      140832572 mates make up the pairs; of these:
+        140808913 (99.98%) aligned 0 times
+        10256 (0.01%) aligned exactly 1 time
+        13403 (0.01%) aligned >1 times
+0.02% overall alignment rate

@@ -1,0 +1,31 @@
+﻿Person ID,Health Status,Age,BMI,Sex,Paired Duodenal Samples?,Paired Fecal Samples?
+9,CD,35,27,Woman,Yes,Yes
+16,CD,36,20,Woman,Yes,Yes
+18,CD,62,18,Woman,Yes,Yes
+19,CD,25,23,Woman,Yes,NA
+20,CD,47,25,Woman,Yes,NA
+23,CD,73,21,Woman,Yes,Only on GFD
+1,NCGS,23,28,Woman,Yes,Yes
+3,NCGS,21,24,Woman,Only baseline,NA
+5,NCGS,24,25,Woman,Yes,Only on GFD
+6,NCGS,23,29,Woman,Yes,Yes
+7,NCGS,22,25,Woman,Yes,NA
+8,NCGS,24,27,Woman,Yes,NA
+10,NCGS,27,23,Man,Yes,Yes
+11,NCGS,23,29,Man,Yes,Only baseline
+13,NCGS,37,31,Woman,Yes,Yes
+17,NCGS,59,19,Woman,Yes,Yes
+22,NCGS,34,26,Woman,Only baseline,NA
+24,NCGS,38,24,Woman,Yes,Only baseline
+2,Control,23,33,Man,Only baseline,NA
+4,Control,24,33,Man,Only baseline,NA
+12,Control,23,24,Woman,Only baseline,NA
+14,Control,25,23,Woman,Only baseline,NA
+15,Control,26,21,Woman,Yes,Yes
+21,Control,24,29,Man,Yes,NA
+25,Control,45,28,Woman,Yes,Only baseline
+26,Control,64,24,Man,Yes,Yes
+27,Control,23,25,Man,Yes,Only baseline
+28,Control,39,25,Man,Yes,NA
+29,Control,58,26,Woman,Yes,NA
+30,Control,42,27,Woman,Yes,NA

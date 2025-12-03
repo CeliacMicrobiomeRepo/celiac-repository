@@ -1,0 +1,27 @@
+Warning: skipping mate #2 of read 'SRR15595245.460325 460325 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595245.460325 460325 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595245.1341260 1341260 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595245.1341260 1341260 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595245.2917748 2917748 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595245.2917748 2917748 length=151' because it was < 2 characters long
+Warning: skipping mate #1 of read 'SRR15595245.4821167 4821167 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR15595245.4821167 4821167 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595245.8387053 8387053 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595245.8387053 8387053 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595245.13104356 13104356 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595245.13104356 13104356 length=151' because it was < 2 characters long
+16169813 reads; of these:
+  16169813 (100.00%) were paired; of these:
+    16160284 (99.94%) aligned concordantly 0 times
+    4984 (0.03%) aligned concordantly exactly 1 time
+    4545 (0.03%) aligned concordantly >1 times
+    ----
+    16160284 pairs aligned concordantly 0 times; of these:
+      172 (0.00%) aligned discordantly 1 time
+    ----
+    16160112 pairs aligned 0 times concordantly or discordantly; of these:
+      32320224 mates make up the pairs; of these:
+        32319108 (100.00%) aligned 0 times
+        442 (0.00%) aligned exactly 1 time
+        674 (0.00%) aligned >1 times
+0.06% overall alignment rate

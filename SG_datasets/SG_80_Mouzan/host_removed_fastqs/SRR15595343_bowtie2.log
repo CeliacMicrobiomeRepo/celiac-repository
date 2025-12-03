@@ -1,0 +1,29 @@
+Warning: skipping mate #1 of read 'SRR15595343.2299534 2299534 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR15595343.2299534 2299534 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595343.2886796 2886796 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595343.2886796 2886796 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595343.2893732 2893732 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595343.2893732 2893732 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595343.5209755 5209755 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595343.5209755 5209755 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595343.12814330 12814330 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595343.12814330 12814330 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR15595343.13085272 13085272 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR15595343.13085272 13085272 length=151' because it was < 2 characters long
+Warning: skipping mate #1 of read 'SRR15595343.13868762 13868762 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR15595343.13868762 13868762 length=151' because it was < 2 characters long
+18437111 reads; of these:
+  18437111 (100.00%) were paired; of these:
+    3263454 (17.70%) aligned concordantly 0 times
+    8712850 (47.26%) aligned concordantly exactly 1 time
+    6460807 (35.04%) aligned concordantly >1 times
+    ----
+    3263454 pairs aligned concordantly 0 times; of these:
+      1550637 (47.52%) aligned discordantly 1 time
+    ----
+    1712817 pairs aligned 0 times concordantly or discordantly; of these:
+      3425634 mates make up the pairs; of these:
+        219552 (6.41%) aligned 0 times
+        932883 (27.23%) aligned exactly 1 time
+        2273199 (66.36%) aligned >1 times
+99.40% overall alignment rate

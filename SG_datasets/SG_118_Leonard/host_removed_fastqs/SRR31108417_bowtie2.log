@@ -1,0 +1,25 @@
+Warning: skipping mate #1 of read 'SRR31108417.9317982 E00489:213:HJ3GNCCXY:2:1208:1864:14916 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR31108417.9317982 E00489:213:HJ3GNCCXY:2:1208:1864:14916 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR31108417.9317982 E00489:213:HJ3GNCCXY:2:1208:1864:14916 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR31108417.9317982 E00489:213:HJ3GNCCXY:2:1208:1864:14916 length=151' because it was < 2 characters long
+Warning: skipping mate #1 of read 'SRR31108417.21955647 E00489:213:HJ3GNCCXY:2:2204:23805:36012 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR31108417.21955647 E00489:213:HJ3GNCCXY:2:2204:23805:36012 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR31108417.21955647 E00489:213:HJ3GNCCXY:2:2204:23805:36012 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR31108417.21955647 E00489:213:HJ3GNCCXY:2:2204:23805:36012 length=151' because it was < 2 characters long
+Warning: skipping mate #1 of read 'SRR31108417.25357872 E00489:213:HJ3GNCCXY:2:2216:15930:57249 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR31108417.25357872 E00489:213:HJ3GNCCXY:2:2216:15930:57249 length=151' because it was < 2 characters long
+27733048 reads; of these:
+  27733048 (100.00%) were paired; of these:
+    27730533 (99.99%) aligned concordantly 0 times
+    1301 (0.00%) aligned concordantly exactly 1 time
+    1214 (0.00%) aligned concordantly >1 times
+    ----
+    27730533 pairs aligned concordantly 0 times; of these:
+      24 (0.00%) aligned discordantly 1 time
+    ----
+    27730509 pairs aligned 0 times concordantly or discordantly; of these:
+      55461018 mates make up the pairs; of these:
+        55459313 (100.00%) aligned 0 times
+        1259 (0.00%) aligned exactly 1 time
+        446 (0.00%) aligned >1 times
+0.01% overall alignment rate

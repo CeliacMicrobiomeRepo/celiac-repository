@@ -1,0 +1,17 @@
+Warning: skipping mate #1 of read 'SRR26276116.2981115 A00551:652:HTY7HDSX5:4:1434:19081:7701 length=150' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR26276116.2981115 A00551:652:HTY7HDSX5:4:1434:19081:7701 length=150' because it was < 2 characters long
+6046178 reads; of these:
+  6046178 (100.00%) were paired; of these:
+    6046010 (100.00%) aligned concordantly 0 times
+    88 (0.00%) aligned concordantly exactly 1 time
+    80 (0.00%) aligned concordantly >1 times
+    ----
+    6046010 pairs aligned concordantly 0 times; of these:
+      24 (0.00%) aligned discordantly 1 time
+    ----
+    6045986 pairs aligned 0 times concordantly or discordantly; of these:
+      12091972 mates make up the pairs; of these:
+        12089114 (99.98%) aligned 0 times
+        1040 (0.01%) aligned exactly 1 time
+        1818 (0.02%) aligned >1 times
+0.03% overall alignment rate

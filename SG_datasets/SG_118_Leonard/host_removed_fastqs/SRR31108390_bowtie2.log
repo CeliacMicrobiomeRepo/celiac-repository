@@ -1,0 +1,21 @@
+Warning: skipping mate #1 of read 'SRR31108390.500713 MG01HX03:172:HKC25CCXY:3:1104:11251:7866 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR31108390.500713 MG01HX03:172:HKC25CCXY:3:1104:11251:7866 length=151' because it was < 2 characters long
+Warning: skipping mate #1 of read 'SRR31108390.13505944 MG01HX03:172:HKC25CCXY:3:2210:3285:36821 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR31108390.13505944 MG01HX03:172:HKC25CCXY:3:2210:3285:36821 length=151' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #1 of read 'SRR31108390.13505944 MG01HX03:172:HKC25CCXY:3:2210:3285:36821 length=151' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR31108390.13505944 MG01HX03:172:HKC25CCXY:3:2210:3285:36821 length=151' because it was < 2 characters long
+15929032 reads; of these:
+  15929032 (100.00%) were paired; of these:
+    15924548 (99.97%) aligned concordantly 0 times
+    2711 (0.02%) aligned concordantly exactly 1 time
+    1773 (0.01%) aligned concordantly >1 times
+    ----
+    15924548 pairs aligned concordantly 0 times; of these:
+      42 (0.00%) aligned discordantly 1 time
+    ----
+    15924506 pairs aligned 0 times concordantly or discordantly; of these:
+      31849012 mates make up the pairs; of these:
+        31848090 (100.00%) aligned 0 times
+        551 (0.00%) aligned exactly 1 time
+        371 (0.00%) aligned >1 times
+0.03% overall alignment rate
