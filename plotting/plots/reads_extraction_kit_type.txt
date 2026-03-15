@@ -1,0 +1,16 @@
+Extraction Kit Type Analysis (Mechanical Lysis vs No Mechanical Lysis)
+==================================================================
+
+Mechanical Lysis (True):  n=14
+  Median: 16903.50
+  Mean:   28488.50
+  Std:    25533.85
+
+No Mechanical Lysis (False): n=9
+  Median: 40807.50
+  Mean:   65845.17
+  Std:    61991.30
+
+Mann-Whitney U Test:
+  Statistic: 35.0
+  P-value:   8.3214e-02

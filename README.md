@@ -1,6 +1,6 @@
 # The Celiac Microbiome Repository
 
-## About
+## A Curated Database for Celiac Disease Gut Microbiome Research
 
 ### The Celiac Microbiome Repository
 The **Celiac Microbiome Repository (CMR)** is the best effort to comprehensively combine all high throughput sequencing datasets of the gut microbiome related to celiac disease. The current version of The Celiac Microbiome Repository (CMR) is **version 1.0**, which was up to date as of **15th July 2025**. The CMR is a continuous project made to be easily updated as new data rapidly becomes available.
@@ -17,7 +17,13 @@ In yet to be published work, by utilising both 16S and shotgun data from the CMR
 ### Future of The CMR and Collaboration
 In recent years the available celiac microbiome data has grown rapidly. If this continues, it will become increasingly challenging to comprehensively combine all of this data. However, continuing the efforts of the CMR would provide an ongoing structured collection of this data in an open source manner which saves repeated efforts.
 
-If you are interested in extending the CMR, please get in touch (haig.bishop@pg.canterbury.ac.nz). This would involve a new literature search, processing of the data (using/building upon the already existing pipeline) and documentation of the new version.
+If you are interested in extending the CMR, please get in touch (haigvbishop@gmail.com). This would involve a new literature search, processing of the data (using/building upon the already existing pipeline) and documentation of the new version.
+
+## How to Use
+Clone the repository locally and utilise it in your custom analysis or machine learning pipeline. To clone the repo:
+```bash
+git clone https://github.com/CeliacMicrobiomeRepo/Celiac-Microbiome-Repository.git
+```
 
 ## Current Version (v1.0)
 
@@ -116,7 +122,9 @@ The `SG_datasets` directory contains processed shotgun metagenomic sequencing da
 
 ## Requirements & Licenses
 
-The code within this repository is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)** (see the `LICENSE` file).
+The code within this repository is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)** (see the `LICENSE` file part 1).
+
+The curated metadata tables and processed microbiome community profiles are provided under the **Creative Commons Attribution 4.0 International (CC BY 4.0) licence** (see the `LICENSE` file part 2).
 
 The scripts rely on several external tools and libraries, each with its own license:
 
@@ -163,5 +171,5 @@ The scripts rely on several external tools and libraries, each with its own lice
 To reference this repository, reference our yet to be published work.
 
 ## Authors
-- **Haig Bishop**:    haig.bishop@pg.canterbury.ac.nz
+- **Haig Bishop**:    haigvbishop@gmail.com
 - **Peter Prendergast**:    peter.prendergast@pg.canterbury.ac.nz

@@ -1,0 +1,13 @@
+Sex Proportion Analysis
+=======================
+
+Sex_Proportion_Female:
+  Min:  0.3922
+  Mean: 0.6228
+  Max:  0.7667
+
+Sex_Proportion_Male:
+  Min:  0.2333
+  Mean: 0.3772
+  Max:  0.6078
+

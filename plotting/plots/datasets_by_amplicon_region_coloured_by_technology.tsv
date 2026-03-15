@@ -1,0 +1,8 @@
+Amplicon_Region	454_Pyrosequencing_Count	Illumina_HiSeq_4000_Count	Illumina_MiSeq_Count	Illumina_NextSeq_Count	Illumina_NovaSeq_6000_Count	Illumina_NovaSeq_platform_Count	Ion_Torrent_Pyrosequencing_Count
+Shotgun	0	2	0	1	1	1	0
+V1-V2	0	0	1	0	0	0	0
+V1-V3	1	0	0	0	0	0	0
+V3	0	0	2	0	0	0	0
+V3-V4	0	0	11	0	1	0	0
+V4	0	0	5	0	0	0	1
+V4-V6	0	0	1	0	0	0	0
