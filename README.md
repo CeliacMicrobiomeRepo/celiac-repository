@@ -1,5 +1,7 @@
 # The Celiac Microbiome Repository
 
+[![DOI](https://zenodo.org/badge/1109520312.svg)](https://doi.org/10.5281/zenodo.19029711)
+
 ## A Curated Database for Celiac Disease Gut Microbiome Research
 
 ### The Celiac Microbiome Repository
