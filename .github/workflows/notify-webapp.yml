@@ -1,0 +1,23 @@
+name: Notify Webapp of Data Update
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'all_samples.tsv'
+      - 'included_datasets.tsv'
+      - 'excluded_datasets.tsv'
+      - 'low_read_samples.tsv'
+      - 'version_docs/latest_version.json'
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger webapp redeploy
+        run: |
+          curl -X POST \
+            -H "Authorization: token ${{ secrets.WEBAPP_DISPATCH_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/CeliacMicrobiomeRepo/celiac-webapp/dispatches \
+            -d '{"event_type": "data-updated"}'
