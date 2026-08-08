@@ -37,8 +37,8 @@ from plot_functions import *
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PARENT_DIR = os.path.dirname(SCRIPT_DIR)
 
-# Columns: Sample_ID	Dataset_ID	SRA_Run_ID	SRA_Project_ID	Month_of_Publication	Publication_DOI	Sequencing_Type	Amplicon_Region	Num_Reads_Input	Num_Reads_Filtered	Num_Reads_DenoisedF	Num_Reads_Nonchim	Total_Pairs_Pre_Host_Removal	Percent_Host_Reads_Removed	Percent_Unclassified_Reads	Num_SGBs	Num_ASVs	Seq_Tech	DNA_Ext_Kit	DNA_Extraction_Is_Mechanical	Paired_Reads	Sample_Site	Diagnosed_Celiac	Gluten_Free_Diet	Will_Develop_Celiac	Group	Short_term_Gluten_Challenge	NCGS	Other_Autoimmune	Hookworm	Possible_Celiac	Any_Significant_Factor	Country	Age	Sex
-# Example row: SRR5514924	16S_102_Bodkhe	SRR5514924	PRJNA385740	Feb-19	10.3389/fmicb.2019.00164	16S	V4	978413	920491	858075	266245	NA	NA	NA	NA	397	Illumina MiSeq	DNeasy Blood & Tissue Kit	False	True	duodenal	False	False	NA	HC	False	False	False	False	False	False	India	12-55	male
+# Columns: Sample_ID	Dataset_ID	SRA_Run_ID	SRA_Project_ID	Month_of_Publication	Publication_DOI	Sequencing_Type	Amplicon_Region	Num_Reads_Input	Num_Reads_Filtered	Num_Reads_DenoisedF	Num_Reads_Nonchim	Total_Pairs_Pre_Host_Removal	Percent_Host_Reads_Removed	Percent_Unclassified_Reads	Num_SGBs	Num_ASVs	Seq_Tech	DNA_Ext_Kit	DNA_Extraction_Is_Mechanical	Paired_Reads	Sample_Site	Diagnosed_Celiac	Gluten_Free_Diet	Will_Develop_Celiac	Group	Short_term_Gluten_Challenge	NCGS	Other_Autoimmune	Hookworm	Possible_Celiac	Any_Significant_Factor	Country	Age	Sex	DOID	EFO	UBERON	NCIT_Sex
+# Example row: SRR5514924	16S_102_Bodkhe	SRR5514924	PRJNA385740	Feb-19	10.3389/fmicb.2019.00164	16S	V4	978413	920491	858075	266245	NA	NA	NA	NA	397	Illumina MiSeq	DNeasy Blood & Tissue Kit	False	True	duodenal	False	False	NA	HC	False	False	False	False	False	False	India	12-55	male	NA	NA	UBERON:0002114	NCIT:C20197
 ALL_SAMPLES_TSV = os.path.join(PARENT_DIR, "all_samples.tsv")
 
 # Columns: Dataset ID	Sample ID	Number of reads (nonchim)
