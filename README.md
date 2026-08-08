@@ -14,7 +14,7 @@ This repository targets 16S rRNA and whole metagenomic sequencing datasets of th
 Our [R Shiny web application](https://celiac.shinyapps.io/celiac-webapp/) draws on the CMR's data, allowing for visualisation and exploration. The code behind this site is open source: [Webapp GitHub](https://github.com/CeliacMicrobiomeRepo/celiac-webapp/tree/main)
 
 ### Publication
-In yet to be published work, by utilising both 16S and shotgun data from the CMR we investigated the stool and duodenal microbiomes over the progression of celiac disease across the globe. Analysis involved differential abundance analysis, comparison of diversity metrics, and machine learning prediction of celiac disease. 
+Using 963 stool and duodenal samples from the CMR, our published cross-cohort analysis investigated the gut microbiome across the progression of celiac disease. The study included diversity analyses, differential abundance testing, and machine learning prediction of celiac disease: [Comprehensive cross-cohort analysis reveals global gut microbiome signatures of celiac disease](https://doi.org/10.1038/s43856-026-01627-1).
 
 ### Future of The CMR and Collaboration
 In recent years the available celiac microbiome data has grown rapidly. If this continues, it will become increasingly challenging to comprehensively combine all of this data. However, continuing the efforts of the CMR would provide an ongoing structured collection of this data in an open source manner which saves repeated efforts.
@@ -170,7 +170,9 @@ The scripts rely on several external tools and libraries, each with its own lice
 [Mothur](https://mothur.org/) was used for some parts of the 16S rRNA gene sequencing analysis pipeline (License: [GPL v3.0](https://github.com/mothur/mothur/blob/main/LICENSE))
 
 ## Reference
-To reference this repository, reference our yet to be published work.
+To reference this repository, cite:
+
+Prendergast, P.J., Bishop, H.V., Herbold, C.W. et al. Comprehensive cross-cohort analysis reveals global gut microbiome signatures of celiac disease. *Commun Med* **6**, 392 (2026). https://doi.org/10.1038/s43856-026-01627-1
 
 ## Authors
 - **Haig Bishop**:    haigvbishop@gmail.com
