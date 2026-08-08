@@ -190,9 +190,11 @@ Lists all datasets included in this version, along with key information like pub
   - `Bowtie2_Alignment_Sensitivity`: Sensitivity preset used for Bowtie2 alignment in host read removal for shotgun data.
   - `Host_Genome_Index`: Reference genome index used for host read removal.
   - `MetaPhlAn_Database`: Specific database version used for taxonomic profiling with MetaPhlAn in shotgun data.
+  - `MetaPhlAn_Parameters`: Complete MetaPhlAn4 execution parameters used, given as semicolon-separated key=value pairs covering the tool version, marker database index, analysis type, statistical/confidence thresholds, and the handling of unclassified reads. NA for 16S datasets.
   - `Fw_Read_Trim_Position`: Forward read trimming length/position used in DADA2, if applicable.
   - `Rv_Read_Trim_Position`: Reverse read trimming length/position used in DADA2, if applicable.
   - `ASV_Table_Length_Filter`: Specific length filter applied to the ASV table post-DADA2, if any.
+  - `DADA2_Parameters`: Complete DADA2 parameters used, given as a semicolon-separated list of calls and arguments in the order applied: script used, filterAndTrim settings (truncLen, trimLeft, maxN, maxEE, truncQ, rm.phix), learnErrors settings, dada sample inference and pooling strategy, mergePairs settings (paired-end only), ASV length filter, chimera removal method, and the SILVA reference files and settings used for taxonomic assignment. NA for shotgun datasets.
   - `Notes_From_Processing`: Any relevant notes made during data processing.
   - `Median_Num_SGBs`: Median number of unique SGBs per sample in the dataset.
   - `Total_Num_SGBs`: Total number of unique SGBs in the dataset.
