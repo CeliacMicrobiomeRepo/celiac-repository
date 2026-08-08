@@ -167,7 +167,7 @@ High-level metadata regarding the datasets included in or excluded from CMR v1.0
 ### `included_datasets.tsv`
 Lists all datasets included in this version, along with key information like publication details, SRA references, sample counts, country, and sample site(s). It contains the following columns:
   - `Dataset_ID`: Unique identifier assigned to the dataset within the CMR.
-  - `Bioproject_ID`: NCBI BioProject ID associated with the dataset, if available.
+  - `Bioproject_ID`: NCBI BioProject ID associated with the dataset. NA if the dataset has no public BioProject accession.
   - `Record_Link`: URL link to the primary data record (e.g., NCBI BioProject, specific database).
   - `Publication_Title`: Title of the associated peer-reviewed publication.
   - `Publication_Link`: URL link to the publication page.
