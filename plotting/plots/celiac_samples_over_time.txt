@@ -1,10 +1,10 @@
 Celiac Accumulation Rate Analysis (July 2015 - June 2025)
 ========================================================
 
-Slope (samples per month): 11.64
-Slope (samples per year):  139.64
-Intercept:                 -191.33
-R-squared:                0.9170
-P-value:                  1.2615e-65
-Standard Error:           0.3222
+Slope (samples per month): 11.63
+Slope (samples per year):  139.52
+Intercept:                 -192.12
+R-squared:                0.9139
+P-value:                  1.1103e-64
+Standard Error:           0.3285
 Sample Size (months):     120

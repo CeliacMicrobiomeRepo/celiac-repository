@@ -10,10 +10,10 @@ from scipy import stats
 
 AGE_BUCKETS = {
     'Infants (0-1)': (0, 1),
-    'Children (2-12)': (2, 12),
-    'Adolescents (13-17)': (13, 17),
-    'Adults (18-64)': (18, 64),
-    'Seniors (65+)': (65, 1000)
+    'Children (1-12)': (1, 12),
+    'Adolescents (13-17)': (12, 17),
+    'Adults (18-64)': (17, 64),
+    'Seniors (65+)': (64, 1000)
 }
 
 def derive_raw_path(write_tsv_path, output_dir, fallback_basename):
@@ -778,13 +778,16 @@ def plot_datasets_by_site(included_datasets_df, output_dir, write_tsv_path=None)
 
 def plot_samples_per_dataset_significant_factors(all_samples_df, output_dir, write_tsv_path=None):
     """
-    Create a bar plot showing the number of samples per dataset with and without significant factors.
+    Create a bar plot showing the number of samples per dataset with, without, or
+    with unresolved significant factors.
     Exports the results as both a TSV file and a PNG visualization.
     """
-    # Filter for samples with valid True/False values for 'Any_Significant_Factor'
-    # We also need to handle potential NA values
     df_sig = all_samples_df.copy()
-    df_sig['Any_Significant_Factor'] = df_sig['Any_Significant_Factor'].map({True: 'With', False: 'Without', 'True': 'With', 'False': 'Without'})
+    df_sig['Any_Significant_Factor'] = (
+        df_sig['Any_Significant_Factor']
+        .map({True: 'With', False: 'Without', 'True': 'With', 'False': 'Without'})
+        .fillna('Unknown')
+    )
     
     # Create a contingency table of counts
     table_df = pd.crosstab(
@@ -792,21 +795,29 @@ def plot_samples_per_dataset_significant_factors(all_samples_df, output_dir, wri
         columns=df_sig['Any_Significant_Factor']
     )
 
-    # Ensure both 'With' and 'Without' columns exist, filling with 0 if not
-    if 'With' not in table_df.columns:
-        table_df['With'] = 0
-    if 'Without' not in table_df.columns:
-        table_df['Without'] = 0
+    # Ensure all three states are represented, even when a state has no samples.
+    for factor_state in ['Without', 'With', 'Unknown']:
+        if factor_state not in table_df.columns:
+            table_df[factor_state] = 0
     
-    # Reorder columns for TSV and plotting (Without first so it's at the bottom of the stack)
-    table_df = table_df[['Without', 'With']]
+    # Without is at the bottom of the stacked bar; unresolved values are on top.
+    table_df = table_df[['Without', 'With', 'Unknown']]
 
     # Prepare DataFrame for TSV export with requested column names
     export_df = table_df.copy().reset_index()
-    export_df.columns = ['Dataset_ID', 'Num_Samples_Without_Significant_Factor', 'Num_Samples_With_Significant_Factor']
+    export_df.columns = [
+        'Dataset_ID',
+        'Num_Samples_Without_Significant_Factor',
+        'Num_Samples_With_Significant_Factor',
+        'Num_Samples_With_Unknown_Significant_Factor_Status'
+    ]
     
-    # Reorder export columns as requested: Dataset_ID, Num_Samples_With_Significant_Factor, Num_Samples_Without_Significant_Factor
-    export_df = export_df[['Dataset_ID', 'Num_Samples_With_Significant_Factor', 'Num_Samples_Without_Significant_Factor']]
+    export_df = export_df[[
+        'Dataset_ID',
+        'Num_Samples_With_Significant_Factor',
+        'Num_Samples_Without_Significant_Factor',
+        'Num_Samples_With_Unknown_Significant_Factor_Status'
+    ]]
 
     # Optionally export to user-specified path
     if write_tsv_path is not None:
@@ -816,8 +827,14 @@ def plot_samples_per_dataset_significant_factors(all_samples_df, output_dir, wri
     # Create the plot
     plt.figure(figsize=(max(10, len(table_df) * 0.5), 6))
     
-    # Plot stacked bars: blue for Without, red for With (red on top)
-    ax = table_df.plot(kind='bar', stacked=True, color=['blue', 'red'], width=0.8, figsize=(max(10, len(table_df) * 0.5), 6))
+    # Plot stacked bars: blue for Without, red for With, and grey for Unknown.
+    table_df.plot(
+        kind='bar',
+        stacked=True,
+        color=['blue', 'red', 'grey'],
+        width=0.8,
+        figsize=(max(10, len(table_df) * 0.5), 6)
+    )
     
     # Customize the plot
     plt.title('Number of Samples per Dataset by Significant Factors', fontsize=12)
@@ -825,7 +842,10 @@ def plot_samples_per_dataset_significant_factors(all_samples_df, output_dir, wri
     plt.ylabel('Number of Samples')
     plt.xticks(rotation=45, ha='right')
     plt.grid(True, axis='y', linestyle='--', alpha=0.7)
-    plt.legend(['No significant factors', 'With significant factors'], title='Significant Factors')
+    plt.legend(
+        ['No significant factors', 'With significant factors', 'Unknown / unresolved'],
+        title='Significant Factors'
+    )
     
     plt.tight_layout()
     
@@ -962,10 +982,11 @@ def plot_prospective_sample_types(all_samples_df, output_dir, write_tsv_path=Non
 
 def analyse_sex(all_samples_df, included_datasets_df, output_dir, write_tsv_path="sex_proportions.tsv"):
     """
-    Analyse the distribution of sex for datasets where sex metadata is available.
+    Analyse the distribution of sex for datasets with sample-level sex metadata.
     """
-    # Filter datasets where Has_Sex_Metadata is TRUE
-    datasets_with_sex = included_datasets_df[included_datasets_df['Has_Sex_Metadata'] == True]['Dataset_ID']
+    datasets_with_sex = included_datasets_df[
+        included_datasets_df['Sex_Metadata_Availability'] == 'sample_level'
+    ]['Dataset_ID']
     
     if datasets_with_sex.empty:
         print("No datasets with sex metadata found.")
@@ -1018,7 +1039,16 @@ def analyse_sex(all_samples_df, included_datasets_df, output_dir, write_tsv_path
             f.write(f"  Min:  {results_df[col].min():.4f}\n")
             f.write(f"  Mean: {results_df[col].mean():.4f}\n")
             f.write(f"  Max:  {results_df[col].max():.4f}\n\n")
-            
+
+        # Pooled sample-level statistic across ALL datasets (not just sample_level ones)
+        sex_all = all_samples_df['Sex'].astype(str).str.lower()
+        n_female = (sex_all == 'female').sum()
+        n_male = (sex_all == 'male').sum()
+        n_known = n_female + n_male
+        f.write("Pooled (all samples with known sex):\n")
+        f.write(f"  Female: {n_female}/{n_known} = {100 * n_female / n_known:.1f}%\n")
+        f.write(f"  Male:   {n_male}/{n_known} = {100 * n_male / n_known:.1f}%\n\n")
+
     # Plot stacked bar chart
     if not results_df.empty:
         plot_df = results_df.set_index('Dataset_ID')
@@ -1056,7 +1086,7 @@ def analyse_age(all_samples_df, included_datasets_df, output_dir, write_tsv_path
     
     for _, row in included_datasets_df.iterrows():
         dataset_id = row['Dataset_ID']
-        has_age_meta = row['Has_Age_Metadata']
+        has_sample_level_age = row['Age_Metadata_Availability'] == 'sample_level'
         age_range_str = str(row['Age_Range'])
         
         age_min = pd.NA
@@ -1078,7 +1108,7 @@ def analyse_age(all_samples_df, included_datasets_df, output_dir, write_tsv_path
             pass # Keep as NA if parsing fails
             
         
-        if has_age_meta:
+        if has_sample_level_age:
             # Get samples for this dataset
             samples = all_samples_df[all_samples_df['Dataset_ID'] == dataset_id]
             # Convert Age to numeric, coercing errors to NaN

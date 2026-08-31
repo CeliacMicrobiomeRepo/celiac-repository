@@ -2,12 +2,16 @@ Sex Proportion Analysis
 =======================
 
 Sex_Proportion_Female:
-  Min:  0.3922
-  Mean: 0.6228
-  Max:  0.7667
+  Min:  0.3725
+  Mean: 0.6452
+  Max:  0.8718
 
 Sex_Proportion_Male:
-  Min:  0.2333
-  Mean: 0.3772
-  Max:  0.6078
+  Min:  0.1282
+  Mean: 0.3500
+  Max:  0.6275
+
+Pooled (all samples with known sex):
+  Female: 1278/2223 = 57.5%
+  Male:   945/2223 = 42.5%
 
