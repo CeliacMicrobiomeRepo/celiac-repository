@@ -1,18 +1,29 @@
-# Celiac Microbiome Repository Version 1.0 Documentation
+# Celiac Microbiome Repository Version 1.0.1 Documentation
 - **Author:** Haig Bishop
-- **Date:** 28th August 2025
-- **Repository Version:** 1.0
+- **Date:** 1st September 2026
+- **Repository Version:** 1.0.1
 - **Literature Search Date:** 15th July 2025
-- **Description:** This is the documentation for CMR v1.0 containing descriptions of inclusion criteria, literature searches, data collection, processing methods, and resulting data.
+- **Description:** This is the documentation for CMR v1.0.1 containing descriptions of inclusion criteria, literature searches, data collection, processing methods, and resulting data.
 
 ---
 
-## Version 1.0 Overview
-Celiac Microbiome Repository (CMR) Version 1.0 (up to date as of July 15th 2025) represents the initial comprehensive release of the celiac disease gut microbiome repository. This version includes all eligible and obtainable studies published before July 15th 2025, comprising 28 included datasets across 13 countries and 5 sample sites. These datasets contain a total of 1,141 samples from individuals diagnosed with celiac disease, and 136 from individuals who would go on to develop celiac disease.
+## Version 1.0.1 Overview
+Celiac Microbiome Repository (CMR) Version 1.0.1 (up to date as of July 15th 2025) is a metadata and documentation patch of Version 1.0, the initial comprehensive release of the celiac disease gut microbiome repository. This version includes all eligible and obtainable studies published before July 15th 2025, comprising 28 included datasets across 13 countries and 5 sample sites. These datasets contain a total of 1,141 samples from individuals diagnosed with celiac disease, and 136 from individuals who would go on to develop celiac disease.
+
+## Changes from v1.0
+Version 1.0.1 corrects and extends the curated metadata and documentation. The included datasets and the microbiome profiles (ASV tables, taxonomic assignments and MetaPhlAn/GTDB profiles) are unchanged from v1.0.
+
+- The recorded metadata of every dataset was re-audited against its source publication, supplementary materials, companion deposits and author-supplied files. Corrections include the country of `16S_96_Quagliariello` (Slovenia, previously Italy), several observed age ranges that had reproduced eligibility criteria rather than observed extremes, and a permuted sample-to-metadata join in the `16S_27_Federica` deposit, which was rebuilt from the publication.
+- Sex and age metadata are now recorded for all 28 datasets, at the sample level where the source permits a reliable join and as cohort-level summaries otherwise, with new availability, coverage and derivation fields in `included_datasets.tsv`.
+- New sample-level columns in `all_samples.tsv`: `Subject_ID`, `Sampling_Timepoint`, `Probiotic_Exposure`, `Source_Study_Arm`, `Sample_Subsite`, `Matched_Set_ID`, `Trial_Arm`, `Marsh_Grade`, `HLA_DQ_Risk`, `CD_Serology_Status`, `Antibiotic_Exposure`, `Delivery_Mode`, `Age_At_CD_Diagnosis_Years`, and the ontology annotations `DOID`, `EFO`, `UBERON` and `NCIT_Sex`.
+- New dataset-level columns in `included_datasets.tsv`: `DADA2_Parameters` and `MetaPhlAn_Parameters` (the complete processing parameters for every dataset), `SILVA_Database`, and the sex and age availability, coverage and derivation fields that replace `Has_Sex_Metadata` and `Has_Age_Metadata`.
+- Probiotic exposure is now a recorded significant factor, flagging the intervention samples of `16S_96_Quagliariello`, `16S_99_Lionetti` and `16S_227_Oscarsson`.
+- Every dataset directory now contains a `samples.tsv` table, a filtered copy of `all_samples.tsv`, so a per-dataset download carries complete sample metadata without reference to the root tables.
+- Documentation clarifications, including the meaning of `NA` in `Bioproject_ID` and the taxonomy reference databases used for each sequencing type.
 
 
-### Data Summary (CMR v1.0)
-The final repository (v1.0) includes 28 datasets:
+### Data Summary (CMR v1.0.1)
+The final repository (v1.0.1) includes 28 datasets:
 - **Total Samples:** The repository includes 3,245 samples (before any exclusion based on metadata/low reads). Comprising 1,141 celiac disease samples and 136 prospective celiac disease samples.
 - **Countries:** Samples originate from 13 different countries: USA, China, England, Italy, India, Poland, Mexico, Australia, Canada, Spain, Saudi Arabia, Sweden and Slovenia.
 - **Sample Sites:** 5 unique body sites are represented: Stool (2632 samples), Duodenal (410 samples), Saliva (87 samples), Gastric (60 samples), Oropharynx (56 samples).
@@ -21,7 +32,7 @@ The final repository (v1.0) includes 28 datasets:
 - **16S Region:** Six unique 16S rRNA variable regions were targeted. The V3-V4 region was most common (75% of samples), followed by V4 (14%), V3 (7%), V4-V6 (2%), V1-V2 (1%), and V1-V3 (1%).
 
 
-### Data Visualisations (CMR v1.0)
+### Data Visualisations (CMR v1.0.1)
 
 <p align="center">
   <img src="../plotting/plots/celiac_samples_world_map.png" width="56%" />
@@ -164,7 +175,7 @@ The `SG_datasets` directory contains processed shotgun metagenomic sequencing da
 - `merged_taxonomic_profile.tsv` - Merged table of taxonomic abundances for all samples in the dataset.
 
 ## Dataset Metadata Files
-High-level metadata regarding the datasets included in or excluded from CMR v1.0 are provided in the following files at the repository root:
+High-level metadata regarding the datasets included in or excluded from CMR v1.0.1 are provided in the following files at the repository root:
 
 ### `included_datasets.tsv`
 Lists all datasets included in this version, along with key information like publication details, SRA references, sample counts, country, and sample site(s). It contains the following columns:
@@ -248,7 +259,7 @@ Lists datasets that were identified as eligible but excluded, along with the pri
 Detailed metadata for individual samples across all included datasets are provided in the following files at the repository root:
 
 ### `all_samples.tsv`
-Contains metadata for every sample included in CMR v1.0. The file contains the following columns:
+Contains metadata for every sample included in CMR v1.0.1. The file contains the following columns:
   - `Sample_ID`: Unique identifier assigned to each sample within the CMR.
   - `Dataset_ID`: Unique identifier for the dataset the sample belongs to.
   - `Subject_ID`: Repository-assigned identifier for the participant represented by the sample. Repeated samples from the same participant share one identifier. `NA` when the source data do not allow for reliable sample-to-participant linkage.

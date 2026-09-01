@@ -5,7 +5,7 @@
 ## A Curated Database for Celiac Disease Gut Microbiome Research
 
 ### The Celiac Microbiome Repository
-The **Celiac Microbiome Repository (CMR)** is the best effort to comprehensively combine all high throughput sequencing datasets of the gut microbiome related to celiac disease. The current version of The Celiac Microbiome Repository (CMR) is **version 1.0**, which was up to date as of **15th July 2025**. The CMR is a continuous project made to be easily updated as new data rapidly becomes available.
+The **Celiac Microbiome Repository (CMR)** is the best effort to comprehensively combine all high throughput sequencing datasets of the gut microbiome related to celiac disease. The current version of The Celiac Microbiome Repository (CMR) is **version 1.0.1**, which was up to date as of **15th July 2025**. The CMR is a continuous project made to be easily updated as new data rapidly becomes available.
 
 ### Criteria for inclusion
 This repository targets 16S rRNA and whole metagenomic sequencing datasets of the human gut microbiome described in peer-reviewed publications, which include *in vivo* samples of individuals who are diagnosed with or will be diagnosed with celiac disease. Both raw sequencing reads and basic sample metadata must be avaliable for inclusion.
@@ -27,12 +27,12 @@ Clone the repository locally and utilise it in your custom analysis or machine l
 git clone https://github.com/CeliacMicrobiomeRepo/Celiac-Microbiome-Repository.git
 ```
 
-## Current Version (v1.0)
+## Current Version (v1.0.1)
 
 ### Version Overview
-Version 1.0 (up to date as of July 15th, 2025) represents the initial comprehensive release of the celiac disease gut microbiome repository. This version includes all eligible and obtainable studies published before July 15, 2025, comprising 28 included datasets across 13 countries and 5 body sites. These datasets contain a total of 1,141 samples from individuals diagnosed with celiac disease, and 136 from individuals who would go on to develop celiac disease.
+Version 1.0.1 (up to date as of July 15th, 2025) is a metadata and documentation patch of Version 1.0, the initial comprehensive release of the celiac disease gut microbiome repository. This version includes all eligible and obtainable studies published before July 15, 2025, comprising 28 included datasets across 13 countries and 5 body sites. These datasets contain a total of 1,141 samples from individuals diagnosed with celiac disease, and 136 from individuals who would go on to develop celiac disease.
 
-Below are visualisations summarising the data in CMR version 1.0.
+Below are visualisations summarising the data in CMR version 1.0.1.
 
 <p align="center">
   <img src="./plotting/plots/celiac_samples_world_map.png" width="54%" />
@@ -46,7 +46,7 @@ Below are visualisations summarising the data in CMR version 1.0.
 
 
 ### Version Documentation
-Details on the current version are available on this page: [Version 1.0 Documentation](version_docs/repo_version_1.0.md).
+Details on the current version are available on this page: [Version 1.0.1 Documentation](version_docs/repo_version_1.0.1.md). Documentation for every previous version also remains in `version_docs/`.
 
 ## Future Developments of the CMR
  - Update with the recent published data
