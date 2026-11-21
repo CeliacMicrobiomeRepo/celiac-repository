@@ -19,13 +19,13 @@ Run this script directly from your Python IDE after running the host removal scr
 Directory Structure:
 
 Root/
-├── SG_preprocessing_scripts/
+├── SG_scripts/
 │   ├── host_read_removal.py
 │   ├── tax_profiling.py                 # <-- This script
 │   └── convert_metaphlan_gtdb.sh
 ├── SG_datasets/
 │   ├── <Dataset_ID_1>/                     # e.g., SG_80_Mouzan
-│   │   ├── input_fastqs/
+│   │   ├── fastqs/
 │   │   ├── host_removed_fastqs/            # Input for this script
 │   │   │   ├── sample1_1.fq.gz
 │   │   │   ├── sample1_2.fq.gz
@@ -139,7 +139,7 @@ logging.basicConfig(
 # --- Helper Functions ---
 def find_fastq_pairs(fastq_dir, r1_pattern, r2_pattern):
     """Finds pairs of host-removed FASTQ files."""
-    # This function is identical to the one in 02_host_read_removal.py
+    # This function is identical to the one in host_read_removal.py
     # It's duplicated here for script independence, but could be refactored into a shared utility
     pairs = {}
     r1_files = glob.glob(os.path.join(fastq_dir, f"*{r1_pattern}*.fq.gz"))

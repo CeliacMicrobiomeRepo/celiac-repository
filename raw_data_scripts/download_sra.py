@@ -9,7 +9,7 @@ Usage:
     - Set `DATASET_DIRS` to the list of dataset directories to process.
     - Ensure each dataset directory contains an accession list file (e.g., "SraAccList.csv").
 2.  Run the script from the command line:
-    `python SG_preprocessing_scripts/01_download_sra.py`
+    `python raw_data_scripts/download_sra.py`
 3.  The script will create subdirectories for SRA files and FASTQ files
     within each dataset directory and process the data.
 
@@ -89,7 +89,7 @@ DATASET_DIRS = [
 
     # Shotgun datasets (on SRA) ------------
     # "SG_datasets/SG_39_Judith/",
-    # "SG_datasets/SG_80_Mouzan/"
+    # "SG_datasets/SG_80_Mouzan/",
     # "SG_datasets/SG_95_Costigan/",
     # "SG_datasets/SG_118_Leonard/",
     # "SG_datasets/SG_132_Francavilla/",

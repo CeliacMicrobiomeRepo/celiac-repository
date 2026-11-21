@@ -212,7 +212,7 @@ saveRDS(phyloseq_obj, file = phyloseq_obj_path)
 # Export sequence_table_no_chimera as a RDS file
 sequence_table_no_chimera_path <- file.path(DATASET_DIR, "seqs_table.rds")
 saveRDS(sequence_table_no_chimera, file = sequence_table_no_chimera_path)
-# To read this use: sequence_table_no_chimera <- readRDS(file.path(DATASET_DIR, "sequence_table_no_chimera.rds"))
+# To read this use: sequence_table_no_chimera <- readRDS(file.path(DATASET_DIR, "seqs_table.rds"))
 
 # Export filter summary as a tsv file
 filter_summary_path <- file.path(DATASET_DIR, "filter_summary.tsv")

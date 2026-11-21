@@ -10,7 +10,7 @@ reads removed for each sample. It also creates a TSV summary file within each
 dataset directory detailing the removal percentage per sample.
 
 Assumes:
-- Input FASTQ files are paired-end and reside in a 'input_fastqs' subdirectory
+- Input FASTQ files are paired-end and reside in a 'fastqs' subdirectory
   within each dataset directory.
 - FASTQ files are gzipped (.fq.gz).
 - A consistent naming convention for paired reads (e.g., containing '_1' and '_2').
@@ -19,7 +19,7 @@ Assumes:
 
 Directory Structure:
 Root/
-├── SG_preprocessing_scripts/
+├── SG_scripts/
 │   ├── host_read_removal.py         <-- This script
 │   ├── tax_profiling.py
 │   └── convert_metaphlan_gtdb.sh
@@ -32,7 +32,7 @@ Root/
 │   │   ├── host_removed_fastqs/        # Output directory (script creates this)
 │   │   │   ├── sampleA_1.fq.gz
 │   │   │   ├── sampleA_2.fq.gz
-│   │   │   ├── sampleA_2_bowtie2.log
+│   │   │   ├── sampleA_bowtie2.log
 │   │   │   └── ...
 │   │   └── about_host_read_removal.tsv      # Output TSV summary (script creates this)
 │   └── <Dataset_ID_2>/
