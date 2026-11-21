@@ -118,13 +118,13 @@ def plot_celiac_samples_over_time(all_samples_df, output_dir, write_tsv_path=Non
     }
 
     # Standardize month abbreviations
-    all_samples_df['Month_of_Publication'] = all_samples_df['Month_of_Publication'].replace(month_map, regex=True)
+    all_samples_df['Month_Of_Publication'] = all_samples_df['Month_Of_Publication'].replace(month_map, regex=True)
 
-    # Convert Month_of_Publication to datetime (first day of month)
-    all_samples_df['Month_of_Publication'] = pd.to_datetime(all_samples_df['Month_of_Publication'], format='%b-%y')
+    # Convert Month_Of_Publication to datetime (first day of month)
+    all_samples_df['Month_Of_Publication'] = pd.to_datetime(all_samples_df['Month_Of_Publication'], format='%b-%y')
 
     # Sort by date
-    all_samples_df = all_samples_df.sort_values('Month_of_Publication')
+    all_samples_df = all_samples_df.sort_values('Month_Of_Publication')
 
     # Count cumulative celiac samples over time
     if include_prospective:
@@ -134,7 +134,7 @@ def plot_celiac_samples_over_time(all_samples_df, output_dir, write_tsv_path=Non
 
     celiac_samples = (
         all_samples_df[mask]
-        .groupby('Month_of_Publication')
+        .groupby('Month_Of_Publication')
         .size()
         .cumsum()
     )
