@@ -6,7 +6,7 @@ data using Trimmomatic and/or Cutadapt.
 
 Usage:
 1.  Obtain the raw FASTQ files from SRA or other source.
-    - If they are on SRA, run `01_download_sra.py` to download the data.
+    - If they are on SRA, run `download_sra.py` to download the data.
     - Else, manually place them in the `fastqs` directory.
     - See Example Input below.
 2.  Configure the paths and options in the "CONFIGURATION" section below.
@@ -15,7 +15,7 @@ Usage:
       contains the raw FASTQ files.
     - Set other options to do with file name and trimming (see below).
 3.  Run the script from the command line:
-    `python SG_preprocessing_scripts/02_trim_reads.py`
+    `python raw_data_scripts/trim_reads.py`
 4.  The script will create a subdirectory for trimmed FASTQ files. If the
     directory already contains files, you will be prompted to overwrite it.
 
@@ -84,10 +84,10 @@ DATASET_DIRS = [
     # "16S_datasets/16S_119_Salamon/",
 
     # Shotgun datasets (on SRA) ------------
-    # "SG_datasets/SG_39_Judith/",         # ???
-    # "SG_datasets/SG_80_Mouzan/"          # Paired-end trimmed with Trimmomatic (NexteraPE-PE.fa)
+    # "SG_datasets/SG_39_Judith/",         # Not trimmed
+    # "SG_datasets/SG_80_Mouzan/",         # Paired-end trimmed with Trimmomatic (NexteraPE-PE.fa)
     # "SG_datasets/SG_95_Costigan/",       # Paired-end trimmed with Trimmomatic (NexteraPE-PE.fa)
-    # "SG_datasets/SG_118_Leonard/",       # ???
+    # "SG_datasets/SG_118_Leonard/",       # Paired-end trimmed with Trimmomatic (NexteraPE-PE.fa)
     # "SG_datasets/SG_132_Francavilla/",
 ]
 

@@ -5,7 +5,7 @@
 ## A Curated Database for Celiac Disease Gut Microbiome Research
 
 ### The Celiac Microbiome Repository
-The **Celiac Microbiome Repository (CMR)** is the best effort to comprehensively combine all high throughput sequencing datasets of the gut microbiome related to celiac disease. The current version of The Celiac Microbiome Repository (CMR) is **version 1.0.1**, which was up to date as of **15th July 2025**. The CMR is a continuous project made to be easily updated as new data rapidly becomes available.
+The **Celiac Microbiome Repository (CMR)** is the best effort to comprehensively combine all high throughput sequencing datasets of the gut microbiome related to celiac disease. The current version of The Celiac Microbiome Repository (CMR) is **version 1.0.2**, which was up to date as of **15th July 2025**. The CMR is a continuous project made to be easily updated as new data rapidly becomes available.
 
 ### Criteria for inclusion
 This repository targets 16S rRNA and whole metagenomic sequencing datasets of the human gut microbiome described in peer-reviewed publications, which include *in vivo* samples of individuals who are diagnosed with or will be diagnosed with celiac disease. Both raw sequencing reads and basic sample metadata must be avaliable for inclusion.
@@ -24,15 +24,15 @@ If you are interested in extending the CMR, please get in touch (haigvbishop@gma
 ## How to Use
 Clone the repository locally and utilise it in your custom analysis or machine learning pipeline. To clone the repo:
 ```bash
-git clone https://github.com/CeliacMicrobiomeRepo/Celiac-Microbiome-Repository.git
+git clone https://github.com/CeliacMicrobiomeRepo/celiac-repository.git
 ```
 
-## Current Version (v1.0.1)
+## Current Version (v1.0.2)
 
 ### Version Overview
-Version 1.0.1 (up to date as of July 15th, 2025) is a metadata and documentation patch of Version 1.0, the initial comprehensive release of the celiac disease gut microbiome repository. This version includes all eligible and obtainable studies published before July 15, 2025, comprising 28 included datasets across 13 countries and 5 body sites. These datasets contain a total of 1,141 samples from individuals diagnosed with celiac disease, and 136 from individuals who would go on to develop celiac disease.
+Version 1.0.2 (up to date as of July 15th, 2025) is a documentation and formatting patch of Version 1.0.1, which itself was a metadata patch of Version 1.0, the initial comprehensive release of the celiac disease gut microbiome repository. This version includes all eligible and obtainable studies published before July 15, 2025, comprising 28 included datasets across 13 countries and 5 body sites. These datasets contain a total of 1,141 samples from individuals diagnosed with celiac disease, and 136 from individuals who would go on to develop celiac disease.
 
-Below are visualisations summarising the data in CMR version 1.0.1.
+Below are visualisations summarising the data in CMR version 1.0.2.
 
 <p align="center">
   <img src="./plotting/plots/celiac_samples_world_map.png" width="54%" />
@@ -46,7 +46,7 @@ Below are visualisations summarising the data in CMR version 1.0.1.
 
 
 ### Version Documentation
-Details on the current version are available on this page: [Version 1.0.1 Documentation](version_docs/repo_version_1.0.1.md). Documentation for every previous version also remains in `version_docs/`.
+Details on the current version are available on this page: [Version 1.0.2 Documentation](version_docs/repo_version_1.0.2.md). Documentation for every previous version also remains in `version_docs/`.
 
 ## Future Developments of the CMR
  - Update with the recent published data
@@ -79,15 +79,13 @@ The `16S_scripts` directory contains R scripts used in the processing of 16S seq
  - `dada2_paired_end.R` - Script to run DADA2 (optimised for Illumina paired end)
  - `dada2_single_end.R` - Script to run DADA2 (optimised for Illumina single end)
 
-### 16S_Datasets/
+### 16S_datasets/
 The `16S_datasets` directory contains all 16S rRNA sequencing datasets as subdirectories. Each dataset subdirectory contains the following files, largely outputs of DADA2.
 - `samples.tsv` - The full CMR metadata for this dataset's samples, including `Subject_ID` (which samples come from the same participant), `Sampling_Timepoint` and `Group`. This is a filtered copy of the root `all_samples.tsv`, so a dataset directory can easily be used on its own without consulting the root tables.
 - `SraAccList.csv` - A list of sample accessions from SRA
 - `SraAccListReduced.csv` - Same as `SraAccList.csv` with unused samples removed
 - `SraRunTable.csv` - A table of sample metadata from SRA
-- `SraRunTableReduced.csv` - Same as `SraRunTable.csv` with unused samples removed
 - `sra_result.csv` - A table of sample metadata from SRA
-- `sra_resultReduced.csv` - Same as `sra_result.csv` with unused samples removed
 - `other_metadata/` - Contain other metadata files (e.g. from authors or papers)
 - `plots/` - Contains plots generated from DADA2 script
 - `asv_abundances.tsv` - The ASV abundance table from DADA2 script
@@ -105,19 +103,16 @@ The `SG_scripts` directory contains Python scripts used for processing shotgun m
  - `convert_metaphlan_gtdb.sh` - Script to convert MetaPhlAn SGB-based profiles to GTDB-based profiles.
 
 ### SG_datasets/
-The `SG_datasets` directory contains processed shotgun metagenomic sequencing datasets as subdirectories. Each dataset subdirectory contains the following files and subdirectories, generated by the `SG_preprocessing_scripts`:
+The `SG_datasets` directory contains processed shotgun metagenomic sequencing datasets as subdirectories. Each dataset subdirectory contains the following files and subdirectories, generated by the `SG_scripts`:
 - `samples.tsv` - The full CMR metadata for this dataset's samples, including `Subject_ID` (which samples come from the same participant), `Sampling_Timepoint` and `Group`. This is a filtered copy of the root `all_samples.tsv`, so a dataset directory can easily be used on its own without consulting the root tables.
 - `SraAccList.csv` - A list of sample accessions from SRA
-- `SraAccListReduced.csv` - Same as `SraAccList.csv` with unused samples removed
 - `SraRunTable.csv` - A table of sample metadata from SRA
-- `SraRunTableReduced.csv` - Same as `SraRunTable.csv` with unused samples removed
 - `sra_result.csv` - A table of sample metadata from SRA
-- `sra_resultReduced.csv` - Same as `sra_result.csv` with unused samples removed
 - `other_metadata/` - Contains other metadata files (e.g., from authors or papers).
-- `host_removed_fastqs/` - Contains outputs from Bowtie2 (generated by `02_host_read_removal.py`).
+- `host_removed_fastqs/` - Contains outputs from Bowtie2 (generated by `host_read_removal.py`).
     - `<sampleID>_bowtie2.log` - Log file for every Bowtie2 sample run.
 - `about_host_read_removal.tsv` - Table with results from host read removal (read counts).
-- `metaphlan_outputs/` - Contains outputs from MetaPhlAn (generated by `03_tax_profiling.py`).
+- `metaphlan_outputs/` - Contains outputs from MetaPhlAn (generated by `tax_profiling.py`).
     - `<sampleID>_profile.txt` - Individual sample taxonomic profile.
     - `gtdb/` - Contains GTDB-based profiles converted from the SGB-based profiles.
         - `<sampleID>_profile.txt` - Individual sample GTDB-based taxonomic profile.
@@ -133,7 +128,7 @@ The curated metadata tables and processed microbiome community profiles are prov
 The scripts rely on several external tools and libraries, each with its own license:
 
 ### Python
-[Python 3.12.2](https://www.python.org/downloads/release/python-3120/) was used for some scripts in this repository. Packages utilised include:
+[Python 3.12.2](https://www.python.org/downloads/release/python-3122/) was used for some scripts in this repository. Packages utilised include:
  - `pandas (v2.2.3)` ([BSD 3-Clause](https://github.com/pandas-dev/pandas/blob/main/LICENSE))
  - `geopandas (v1.1.1)` ([BSD 3-Clause](https://github.com/geopandas/geopandas/blob/main/LICENSE.txt))
  - `shapely (v2.1.1)` ([BSD 3-Clause](https://github.com/shapely/shapely/blob/main/LICENSE.txt))
@@ -141,6 +136,7 @@ The scripts rely on several external tools and libraries, each with its own lice
  - `numpy (v1.26.4)` ([BSD 3-Clause](https://github.com/numpy/numpy/blob/main/LICENSE.txt))
  - `seaborn (v0.13.2)` ([BSD 3-Clause](https://github.com/mwaskom/seaborn/blob/master/LICENSE.md))
  - `Pillow (v10.2.0)` ([MIT-CMU](https://github.com/python-pillow/Pillow/blob/main/LICENSE))
+ - `scipy` ([BSD 3-Clause](https://github.com/scipy/scipy/blob/main/LICENSE.txt))
 
 ### R
 [R version 4.5.1](https://www.r-project.org/) was used for many scripts in this repository. Packages utilised include:
@@ -154,7 +150,7 @@ The scripts rely on several external tools and libraries, each with its own lice
 [SRAtoolkit](https://github.com/ncbi/sra-tools/wiki/02.-Installing-SRA-Toolkit) was used for downloading raw reads from NCBI SRA. (License: [Public Domain - U.S. Government Work](https://github.com/ncbi/sra-tools/blob/master/LICENSE))
 
 ### FastQC (v0.11.9)
-[FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) was used for checking for the presence of adapter sequences. (License: [GPL v3.0](https://github.com/s-andrews/FastQC/blob/master/LICENSE.txt))
+[FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) was used for checking for the presence of adapter sequences. (License: [GPL v3.0](https://github.com/s-andrews/FastQC/blob/master/LICENSE))
 
 ### Trimmomatic (v0.39)
 [Trimmomatic](https://github.com/usadellab/Trimmomatic/releases) was used for trimming adapter sequences from raw reads. (License: [GPL v3.0](https://github.com/usadellab/Trimmomatic/blob/main/LICENSE))
@@ -162,14 +158,11 @@ The scripts rely on several external tools and libraries, each with its own lice
 ### Cutadapt (v5.1)
 [Cutadapt](https://cutadapt.readthedocs.io/en/stable/installation.html) was used for trimming adapter sequences from raw reads. (License: [MIT](https://github.com/marcelm/cutadapt/blob/main/LICENSE))
 
-### Bowtie2 (v2.4.4)
+### Bowtie2 (v2.5.4)
 [Bowtie2](https://bowtie-bio.sourceforge.net/bowtie2/index.shtml) was used for host read removal and as a dependency of MetaPhlAn. (License: [GPLv3](https://github.com/BenLangmead/bowtie2/blob/master/LICENSE))
 
 ### MetaPhlAn4 (v4.2.2)
 [MetaPhlAn4](https://huttenhower.sph.harvard.edu/metaphlan/) was used for taxonomic profiling of shotgun metagenomic data. (License: [MIT](https://github.com/biobakery/MetaPhlAn/blob/master/license.txt))
-
-### Mothur (v1.47.0)
-[Mothur](https://mothur.org/) was used for some parts of the 16S rRNA gene sequencing analysis pipeline (License: [GPL v3.0](https://github.com/mothur/mothur/blob/main/LICENSE))
 
 ## Reference
 To reference this repository, cite:
